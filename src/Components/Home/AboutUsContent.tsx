@@ -43,7 +43,7 @@ const AboutUsContent = () => {
             preferences of our clients.
           </p>
           <p className=" text-[20px] text-left leading-[32px] text-[#222222]">
-            But our story doesn't end there. We are committed to sustainable and
+            But our story doesn&apos;t end there. We are committed to sustainable and
             responsible travel, striving to protect the environment, support
             local communities, and preserve the cultural heritage of Sri Lanka.
             Through our partnerships with local guides, eco-conscious
@@ -55,12 +55,12 @@ const AboutUsContent = () => {
             adventurers who have embarked on unforgettable journeys with us.
             Their stories of awe-inspiring encounters, cultural immersion, and
             lifelong connections fuel our passion and drive us to continuously
-            push the boundaries of what's possible.
+            push the boundaries of what&apos;s possible.
           </p>
           <p className=" text-[20px] text-left leading-[32px] text-[#222222]">
             Join us as we invite you to write your own chapter in the story of
             Heaven Lanka. Let us be your guide, your storyteller, and your
-            trusted companion on your journey of discovery. Together, let's
+            trusted companion on your journey of discovery. Together, let&apos;s
             create memories that will last a lifetime.
           </p>
         </div>
@@ -96,7 +96,7 @@ const AboutUsContent = () => {
             experiences that ignite a sense of wonder, foster cultural
             understanding, and create lasting memories. We are dedicated to
             crafting personalized itineraries that showcase the best of Sri
-            Lanka's diverse landscapes, rich heritage, and warm hospitality.
+            Lanka&apos;s diverse landscapes, rich heritage, and warm hospitality.
             With a commitment to responsible and sustainable travel practices,
             we aim to protect the natural environment, support local
             communities, and promote cultural preservation. Through our passion
@@ -161,7 +161,7 @@ const AboutUsContent = () => {
               experiences is at the core of everything we do.
             </p>
             <p className="  text-[20px] text-left leading-[32px] text-[#222222]">
-              Join us as we embark on a journey shaped by Harsha's passion,
+              Join us as we embark on a journey shaped by Harsha&apos;s passion,
               expertise, and unwavering commitment to delivering extraordinary
               travel experiences.
             </p>

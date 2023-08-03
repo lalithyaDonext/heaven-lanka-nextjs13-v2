@@ -41,11 +41,11 @@ const HomeContent = () => {
           <span className="text-[#077B83]">Best</span> vacation plans
         </h1>
         <p className="w-[850px]  text-[20px] text-center leading-[8px] text-[#222222]">
-          "Embark on an unforgettable adventure with our 'Ultimate Sri Lanka'
+          Embark on an unforgettable adventure with our &apos;Ultimate Sri Lanka&apos;
           tour package.
         </p>
         <p className="w-[1000px]  text-[20px] text-center leading-[20px] text-[#222222]">
-          Discover the country's stunning landscapes, ancient temples, and
+          Discover the country&apos;s stunning landscapes, ancient temples, and
           wildlife on this comprehensive tour.
         </p>
       </div>
@@ -56,7 +56,7 @@ const HomeContent = () => {
 
       <div className="container mx-auto px-20  flex flex-col justify-center items-center mt-[100px] space-y-4">
         <h1 className="text-[48px] font-bold font-[volkhov]">
-          <span className="text-[#077B83]">Sri Lanks's</span> Tresasures
+          <span className="text-[#077B83]">Sri Lanks&apos;s</span> Tresasures
         </h1>
         <p className="w-[790px]  text-[20px] text-[#222222] text-center">
           Discover the highlights of Sri Lanka, where natural wonders, cultural

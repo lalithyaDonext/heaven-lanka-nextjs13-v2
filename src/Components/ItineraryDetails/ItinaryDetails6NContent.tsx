@@ -319,7 +319,7 @@ const ItinaryDetails6NContent = () => {
 
               <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
                 Visit tea plantations: Kandy is surrounded by lush tea
-                plantations that produce some of Sri Lanka's best teas. Take a
+                plantations that produce some of Sri Lanka&apos;s best teas. Take a
                 tour of one of these plantations to learn about the tea making
                 process and sample some of the local blends{" "}
               </span>
@@ -359,7 +359,7 @@ const ItinaryDetails6NContent = () => {
                 Lanka. The naturally landscaped Hakgala Botanical Gardens
                 displays roses and tree ferns, and shelters monkeys and blue
                 magpies. Nearby Seetha Amman Temple, a colorful Hindu shrine, is
-                decorated with religiousfigures. Densely forested Galway's Land
+                decorated with religiousfigures. Densely forested Galway&apos;s Land
                 National Park is a sanctuary for endemic and migratory bird
                 species, including bulbuls and flycatchers.
               </p>
@@ -421,7 +421,7 @@ const ItinaryDetails6NContent = () => {
                 Explore Horton Plains National Park: This national park is home
                 to a variety of wildlife, including leopards, sambars, and
                 purple-faced langurs. The park also boasts stunning landscapes,
-                such as Baker's Falls and World's End.
+                such as Baker&apos;s Falls and World&apos;s End.
               </span>
             </div>
             <div className="flex flex-row gap-[20px] ">

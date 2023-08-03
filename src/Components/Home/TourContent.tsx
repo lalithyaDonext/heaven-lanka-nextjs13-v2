@@ -18,8 +18,8 @@ const TourContent = () => {
             </div>
             <div className="container mx-auto px-20  flex flex-col justify-center items-center mt-[100px] space-y-4">
                 <h1 className="text-[48px] font-bold font-[volkhov]">vacation <span className="text-[#077B83]">plans</span></h1>
-                <p className="w-[850px]  text-[20px] text-center leading-[8px] text-[#222222]">"Embark on an unforgettable adventure with our 'Ultimate Sri Lanka' tour package.</p>
-                <p className="w-[1000px]  text-[20px] text-center leading-[20px] text-[#222222]">Discover the country's stunning landscapes, ancient temples, and wildlife on this comprehensive tour.</p>
+                <p className="w-[850px]  text-[20px] text-center leading-[8px] text-[#222222]">Embark on an unforgettable adventure with our &apos;Ultimate Sri Lanka&apos; tour package.</p>
+                <p className="w-[1000px]  text-[20px] text-center leading-[20px] text-[#222222]">Discover the country&apos;s stunning landscapes, ancient temples, and wildlife on this comprehensive tour.</p>
 
             </div>
 
@@ -64,10 +64,10 @@ const TourContent = () => {
                 </div>
 
                 <div className="mt-[60px] ml-[250px] mr-[250px]">
-                <p className="text-[18px] leading-[32px] ">1. <span className="text-[#077B83]">Breathtaking Beaches:</span>Sink your toes into soft sands, soak up the sun, and swim in crystal-clear waters along Sri Lanka's stunning coastline. From lively beach towns to secluded coves, there's a beach for every mood.</p>
+                <p className="text-[18px] leading-[32px] ">1. <span className="text-[#077B83]">Breathtaking Beaches:</span>Sink your toes into soft sands, soak up the sun, and swim in crystal-clear waters along Sri Lanka&apos;s stunning coastline. From lively beach towns to secluded coves, there&apos;s a beach for every mood.</p>
                 <p className="text-[18px] leading-[32px]">2. <span className="text-[#077B83]">Lush Landscapes:</span>Explore the enchanting landscapes of Sri Lanka, from rolling tea plantations to mist-covered mountains and cascading waterfalls. Trek through verdant forests and marvel at the diversity of flora and fauna that thrive here.</p>
-                <p className="text-[18px] leading-[32px]">3. <span className="text-[#077B83]">Rich Cultural Heritage:</span>Immerse yourself in Sri Lanka's rich cultural heritage, with ancient cities, UNESCO World Heritage sites, and religious landmarks. Witness traditional ceremonies, explore intricate temples, and delve into centuries-old history.</p>
-                <p className="text-[18px] leading-[32px]">4. <span className="text-[#077B83]">Wildlife Encounters:</span>Embark on thrilling wildlife safaris and witness elephants, leopards, birds, and other exotic creatures in their natural habitats. Sri Lanka's national parks and reserves offer incredible opportunities for wildlife enthusiasts.</p>
+                <p className="text-[18px] leading-[32px]">3. <span className="text-[#077B83]">Rich Cultural Heritage:</span>Immerse yourself in Sri Lanka&apos;s rich cultural heritage, with ancient cities, UNESCO World Heritage sites, and religious landmarks. Witness traditional ceremonies, explore intricate temples, and delve into centuries-old history.</p>
+                <p className="text-[18px] leading-[32px]">4. <span className="text-[#077B83]">Wildlife Encounters:</span>Embark on thrilling wildlife safaris and witness elephants, leopards, birds, and other exotic creatures in their natural habitats. Sri Lanka&apos;s national parks and reserves offer incredible opportunities for wildlife enthusiasts.</p>
                 <p className="text-[18px] leading-[32px]">5. <span className="text-[#077B83]">Adventure Awaits:</span>From thrilling water sports and exhilarating hikes to scenic train rides and hot air balloon flights, Sri Lanka presents endless opportunities for adventure seekers.</p>
                 <p className="text-[18px] leading-[32px]">6. <span className="text-[#077B83]">Warm Hospitality:</span> Experience the genuine warmth and hospitality of the Sri Lankan people, who will make you feel right at home and ensure your vacation is filled with unforgettable moments.</p>
                 <p className="text-[18px] leading-[32px]">7. <span className="text-[#077B83]">Mouthwatering Cuisine:</span>Indulge in the flavors of Sri Lanka, where aromatic spices, fresh seafood, and exotic fruits come together to create a culinary paradise. Sample delicious curries, street food delicacies, and traditional sweets.</p>

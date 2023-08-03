@@ -152,7 +152,7 @@ const ItinaryDetails3NContent = () => {
 
               <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
                 Visit tea plantations: Kandy is surrounded by lush tea
-                plantations that produce some of Sri Lanka's best teas. Take a
+                plantations that produce some of Sri Lanka&apos;s best teas. Take a
                 tour of one of these plantations to learn about the tea making
                 process and sample some of the local blends{" "}
               </span>
