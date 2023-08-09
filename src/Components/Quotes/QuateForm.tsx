@@ -323,7 +323,7 @@ const QuoteForm = () => {
                 ) : (
                   "Get My Quote"
                 )}
-                <style jsx>
+                {/* <style jsx>
                   {`
                     button {
                       display: flex;
@@ -351,7 +351,7 @@ const QuoteForm = () => {
                       }
                     }
                   `}
-                </style>
+                </style> */}
               </button>
             </div>
           </Form>

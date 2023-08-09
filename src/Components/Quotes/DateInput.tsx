@@ -12,7 +12,7 @@ const DateInput = () => {
         <input type="date"  className="h-[38px] w-[144.9px]  rounded-[10px] rounded-s-[0px]  border solid border-[#E5E5E5] outline-none border-[3px] border-s-[0px] bg-white bg-opacity-[0%] text-[14px] p-[10px] text-[#FFFFFF] " >
         </input>
        </div>
-       <style>
+       {/* <style>
         {`
           input[type="date"]::-webkit-calendar-picker-indicator {
             background-color: #E9B4A5;
@@ -25,7 +25,7 @@ const DateInput = () => {
           }
        
         `}
-      </style>
+      </style> */}
         
         </div>
        
