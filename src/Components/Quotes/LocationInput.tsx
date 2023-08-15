@@ -1,18 +1,18 @@
 const LocationInput = () => {
-    return ( 
-
-       
-        <div>
-        <div className=" mb-[20px] font-bold text-[#E5E5E5] text-[20px]">
-        <label >Location</label>
+    return (
+      <div className="mb-4">
+        <div className="mb-2 font-bold text-gray-300 text-lg">
+          <label htmlFor="location">Location</label>
         </div>
-       
-        <select  className="h-[38px] w-[224px]  rounded-[10px]  border solid border-[#E5E5E5] border-[3px] bg-white bg-opacity-[0%] text-[14px] text-[#FFFFFF] pl-[10px] ">
-        <option value="sri lanka">Sri Lanka</option>
+        <select
+          id="location"
+          className="w-full md:w-[200px] bg-transparent h-10 rounded-md outline-none border border-white-300 bg-opacity-0 text-sm text-white md:px-4 pl-3"
+        >
+          <option value="sri lanka">Sri Lanka</option>
         </select>
-        </div>
-       
-     );
-}
- 
-export default LocationInput;
+      </div>
+    );
+  }
+  
+  export default LocationInput;
+  

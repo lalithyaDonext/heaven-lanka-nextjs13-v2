@@ -1,18 +1,18 @@
-const GuestInput = () => {
-    return ( 
-
-       
-        <div>
-        <div className=" mb-[20px] font-bold text-[#E5E5E5] text-[20px]">
-        <label >Guest</label>
+const DurationInput = () => {
+    return (
+      <div className="mb-4">
+        <div className="mb-2 font-bold text-gray-300 text-lg">
+          <label htmlFor="tourDuration">Tour Duration</label>
         </div>
-       
-        <select  className="h-[38px] w-[127.4px]  rounded-[10px]  border solid border-[#E5E5E5] border-[3px] bg-white bg-opacity-[0%] text-[14px] text-[#FFFFFF] pl-[10px]">
-        <option value="2">2 Guests</option>
+        <select
+          id="tourDuration"
+          className="w-full md:w-[150px] bg-transparent h-10 rounded-md border border-gray-300 bg-opacity-0 text-sm text-white pl-3"
+        >
+          <option value="6">6 Days</option>
         </select>
-        </div>
-       
-     );
-}
- 
-export default GuestInput;
+      </div>
+    );
+  }
+  
+  export default DurationInput;
+  

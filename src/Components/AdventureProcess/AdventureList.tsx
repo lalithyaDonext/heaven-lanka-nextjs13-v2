@@ -25,12 +25,12 @@ const AdventureList = () => {
       },
     ]
     return ( 
-      <div className="flex flex-row items-center gap-8 justify-center mt-4">
+      <div className="flex flex-row items-center gap-2 justify-center mt-4 ">
       {adventure1.map((item, index) => (
         <>
           <AdventureCard key={index} adventure={item} />
           {index !== adventure1.length - 1 && (
-            <FiChevronRight className="text-[#077B83] h-8 w-8 -mt-[25px]" />
+            <FiChevronRight className="text-[#077B83] md:h-8 md:w-8 h-4 w-4" />
           )}
         </>
       ))}
