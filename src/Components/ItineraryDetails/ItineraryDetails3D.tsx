@@ -23,18 +23,18 @@ const ItinaryDetails3NContent = () => {
     <div className="flex flex-col gap-[90px] justify-start  mt-[100PX]">
       {/* ----------------Day 1----------------- */}
       <div className="flex flex-col justify-start items-left">
-        <div className="flex flex-row gap-[30px] items-center">
-          <Image src={image9} alt="item1" className="" />
-          <h1 className="text-[44px] font-bold font-[volkhov] text-left">
+        <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px]"  />
+          <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 01 - <span className="text-[#077B83]"> Kandy</span>
           </h1>
         </div>
-        <div className="font-[700] text-[20px] leading-[28px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-row gap-[50px] mt-[40px] pl-[70px]">
-          <div className="flex flex-row gap-[60px] w-[570px] font-[400] text-[20px] leading-[32px]">
-            <div className="flex flex-col gap-[50px]">
+        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[70px]">
+          <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
+            <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
                 Kandy is a city in central Sri Lanka, also known as the Hill
                 Capital of Sri Lanka. It is the second largest city in the
@@ -48,16 +48,16 @@ const ItinaryDetails3NContent = () => {
                 Sri Lanka.
               </p>
 
-              <div className="flex flex-col gap-[30px]">
-                <div className="flex flex-row gap-[20px]">
-                  <Image src={iconView} alt="item1" className="" />
+              <div className="flex flex-col md:gap-[30px]">
+              <div className="flex flex-row items-center gap-[20px]">
+                  <Image src={iconView} alt="item1" className="w-[25px] h-[18px] md:w-[45px] md:h-[32px]" />
 
                   <span className="font-semibold">
                     Cinnamon Citadel (4 Star Hotel)
                   </span>
                 </div>
-                <div className="flex flex-row gap-[20px]">
-                  <Image src={iconViewOne} alt="item1" className="" />
+                <div className="flex flex-row  items-center gap-[20px]">
+                  <Image src={iconViewOne} alt="item1" className="w-[24px] h-[20px] md:w-[43px] md:h-[36px]" />
 
                   <span className="font-semibold">Half Board Basis</span>
                 </div>
@@ -73,21 +73,20 @@ const ItinaryDetails3NContent = () => {
           </div>
         </div>
       </div>
-
       <div>
-        <div className="flex flex-col gap-[40px] pl-[70px]">
-          <h1 className="text-[36px] font-bold font-[volkhov] text-left">
+      <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]">
+        <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
             Activities
           </h1>
-          <div className="flex flex-col gap-[30px]">
-            <div className="flex flex-row gap-[20px] ">
+          <div className="flex flex-col md:gap-[30px]">
+          <div className="flex flex-row gap-[20px] ">
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Visit the Temple of the Tooth Relic: This temple is considered
                 to be one of the most sacred Buddhist temples in the world and
                 is a must-visit when in Kandy.{" "}
@@ -97,10 +96,10 @@ const ItinaryDetails3NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Explore the Royal Botanic Gardens: With over 4000 species of
                 plants and trees, this garden is a piece of paradise on earth.
               </span>
@@ -109,10 +108,10 @@ const ItinaryDetails3NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Watch a cultural performance: Kandy is home to traditional dance
                 and music performances that showcase the rich culture of Sri
                 Lanka.{" "}
@@ -122,10 +121,10 @@ const ItinaryDetails3NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Walk around the Kandy Lake: This scenic lake is a peaceful spot
                 to relax, take in the views, and watch the locals go about their
                 day.{" "}
@@ -135,10 +134,10 @@ const ItinaryDetails3NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Browse the markets: Kandy has many markets selling fresh fruits,
                 vegetables, spices, and handicrafts.{" "}
               </span>
@@ -147,45 +146,44 @@ const ItinaryDetails3NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Visit tea plantations: Kandy is surrounded by lush tea
-                plantations that produce some of Sri Lanka&apos;s best teas. Take a
-                tour of one of these plantations to learn about the tea making
-                process and sample some of the local blends{" "}
+                plantations that produce some of Sri Lanka&apos;s best teas.
+                Take a tour of one of these plantations to learn about the tea
+                making process and sample some of the local blends{" "}
               </span>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="flex flex-col gap-[40px] pl-[70px]">
-        <h1 className="text-[36px] font-bold font-[volkhov] text-left">
+      <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]">
+        <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
           Kandy Highlights
         </h1>
-        <div className="flex flex-row gap-[30px]">
-          <Image src={Image1} alt="item1" className="" />
-          <Image src={image2} alt="item1" className="" />
-          <Image src={image3} alt="item1" className="" />
+        <div className="flex flex-col md:flex-row gap-[30px]">
+          <Image src={Image1} alt="item1" className="w-full" />
+          <Image src={image2} alt="item1" className="w-full" />
+          <Image src={image3} alt="item1" className="w-full" />
         </div>
       </div>
 
       {/* ----------------day 02------------ */}
       <div className="flex flex-col justify-start items-left mt-[30px] ">
-        <div className="flex flex-row gap-[30px] items-center">
-          <Image src={image9} alt="item1" className="" />
-          <h1 className="text-[44px] font-bold font-[volkhov] text-left">
+      <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px]" />
+          <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 02 - <span className="text-[#077B83]"> Hikkaduwa</span>
           </h1>
         </div>
-        <div className="font-[700] text-[20px] leading-[28px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-row gap-[50px] mt-[40px] pl-[70px]">
-          <div className="flex flex-row gap-[60px] w-[570px] font-[400] text-[20px] leading-[32px]">
-            <div className="flex flex-col gap-[50px]">
+        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[70px]">
+          <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
+            <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
                 Hikkaduwa is a small coastal town located on the southwestern
                 coast of Sri Lanka. It is known for its beautiful beaches,
@@ -198,14 +196,14 @@ const ItinaryDetails3NContent = () => {
                 guesthouses catering to visitors.
               </p>
 
-              <div className="flex flex-col gap-[30px]">
-                <div className="flex flex-row gap-[20px]">
-                  <Image src={iconView} alt="item1" className="" />
+              <div className="flex flex-col gap-[10px] md:gap-[30px]">
+                <div className="flex flex-row items-center gap-[20px]">
+                  <Image src={iconView} alt="item1" className="w-[25px] h-[18px] md:w-[45px] md:h-[32px]" />
 
                   <span className="font-semibold">Hikka Tranz by Cinnamon</span>
                 </div>
-                <div className="flex flex-row gap-[20px]">
-                  <Image src={iconViewOne} alt="item1" className="" />
+                <div className="flex flex-row  items-center gap-[20px]">
+                  <Image src={iconViewOne} alt="item1" className="w-[24px] h-[20px] md:w-[43px] md:h-[36px]" />
 
                   <span className="font-semibold">Half Board Basis</span>
                 </div>
@@ -223,19 +221,19 @@ const ItinaryDetails3NContent = () => {
       </div>
 
       <div>
-        <div className="flex flex-col gap-[40px] pl-[70px]">
-          <h1 className="text-[36px] font-bold font-[volkhov] text-left">
+      <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]">
+          <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
             Activities
           </h1>
-          <div className="flex flex-col gap-[30px]">
+          <div className="flex flex-col md:gap-[30px]">
             <div className="flex flex-row gap-[20px] ">
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Beach Fun: Enjoy the beautiful beaches of Hikkaduwa by swimming,
                 sunbathing, or simply relaxing on the golden sands. You can also
                 try surfing, as Hikkaduwa is known for its excellent surf breaks
@@ -246,10 +244,10 @@ const ItinaryDetails3NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Snorkeling and Diving: Explore the vibrant coral reef just off
                 the coast of Hikkaduwa. Snorkeling and diving tours are
                 available, allowing you to witness the diverse marine life,
@@ -261,10 +259,10 @@ const ItinaryDetails3NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Glass Bottom Boat Rides: If you prefer to stay dry but still
                 want to see the underwater wonders, take a glass-bottom boat
                 ride. These tours allow you to observe the marine life through
@@ -275,10 +273,10 @@ const ItinaryDetails3NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Turtle Hatchery: Take a trip to the nearby turtle hatchery,
                 where you can learn about conservation efforts and observe baby
                 turtles before they are released into the ocean.
@@ -288,10 +286,10 @@ const ItinaryDetails3NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Madu River Safari: Embark on a boat trip along the picturesque
                 Madu River. Explore the mangrove forests, visit small islands,
                 and spot diverse bird species and wildlife along the way.
@@ -301,10 +299,10 @@ const ItinaryDetails3NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Yoga and Wellness: Hikkaduwa has a growing wellness scene, with
                 many yoga retreats, meditation centers, and spas offering
                 relaxation and rejuvenation experiences.
@@ -314,32 +312,32 @@ const ItinaryDetails3NContent = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-[40px] pl-[70px]">
-        <h1 className="text-[36px] font-bold font-[volkhov] text-left">
+      <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]">
+        <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
           Hikkaduwa Highlights
         </h1>
-        <div className="flex flex-row gap-[30px]">
-          <Image src={image5} alt="item1" className="" />
-          <Image src={image6} alt="item1" className="" />
-          <Image src={Image7} alt="item1" className="" />
-          <Image src={image8} alt="item1" className="" />
+        <div className="flex flex-col md:flex-row gap-[30px]">
+          <Image src={image5} alt="item1" className="w-full" />
+          <Image src={image6} alt="item1" className="w-full" />
+          <Image src={Image7} alt="item1" className="w-full" />
+          <Image src={image8} alt="item1" className="w-full" />
         </div>
       </div>
 
       {/* --------------------day03---------------------- */}
       <div className="flex flex-col justify-start items-left mt-[30px] ">
-        <div className="flex flex-row gap-[30px] items-center">
-          <Image src={image9} alt="item1" className="" />
-          <h1 className="text-[44px] font-bold font-[volkhov] text-left">
+      <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px]" />
+          <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 03 - <span className="text-[#077B83]"> Colombo</span>
           </h1>
         </div>
-        <div className="font-[700] text-[20px] leading-[28px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-row gap-[50px] mt-[40px] pl-[70px]">
-          <div className="flex flex-row gap-[60px] w-[570px] font-[400] text-[20px] leading-[32px]">
-            <div className="flex flex-col gap-[50px]">
+        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[70px]">
+          <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
+            <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
                 Colombo, the commercial capital of Sri Lanka is a vibrant city
                 with a rich history and cultural heritage. It is a popular
@@ -347,16 +345,16 @@ const ItinaryDetails3NContent = () => {
                 landmarks, and vibrant nightlife.
               </p>
 
-              <div className="flex flex-col gap-[30px]">
-                <div className="flex flex-row gap-[20px]">
-                  <Image src={iconView} alt="item1" className="" />
+              <div className="flex flex-col gap-[10px] md:gap-[30px]">
+                <div className="flex flex-row items-center gap-[20px]">
+                  <Image src={iconView} alt="item1" className="w-[25px] h-[18px] md:w-[45px] md:h-[32px]" />
 
                   <span className="font-semibold">
                     Kingsbury Colombo (5 Star Hotel)
                   </span>
                 </div>
-                <div className="flex flex-row gap-[20px]">
-                  <Image src={iconViewOne} alt="item1" className="" />
+                <div className="flex flex-row  items-center gap-[20px]">
+                  <Image src={iconViewOne} alt="item1" className="w-[24px] h-[20px] md:w-[43px] md:h-[36px]" />
 
                   <span className="font-semibold">Half Board Basis</span>
                 </div>
@@ -372,21 +370,20 @@ const ItinaryDetails3NContent = () => {
           </div>
         </div>
       </div>
-
       <div>
-        <div className="flex flex-col gap-[40px] pl-[70px]">
-          <h1 className="text-[36px] font-bold font-[volkhov] text-left">
+      <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]">
+          <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
             Activities
           </h1>
-          <div className="flex flex-col gap-[30px]">
+          <div className="flex flex-col md:gap-[30px]">
             <div className="flex flex-row gap-[20px] ">
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Gangaramaya Temple is a beautiful Buddhist temple located in the
                 heart of Colombo. The temple attracts thousands of worshippers
                 and tourists every year. Visitors can admire the stunning
@@ -397,10 +394,10 @@ const ItinaryDetails3NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Pettah Market is a bustling market located in the heart of
                 Colombo. It is a great place to experience the local culture and
                 people. Visitors can buy a variety of items, including spices,
@@ -411,31 +408,30 @@ const ItinaryDetails3NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Visitation of Independence Square ( Optional)
               </span>
             </div>
           </div>
         </div>
       </div>
-
-      <div className="flex flex-col gap-[40px] pl-[70px]">
-        <h1 className="text-[36px] font-bold font-[volkhov] text-left">
+      <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]">
+        <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
           Colombo Highlights
         </h1>
-        <div className="flex flex-row gap-[30px]">
-          <Image src={image11} alt="item1" className="" />
-          <Image src={image12} alt="item1" className="" />
-          <Image src={image13} alt="item1" className="" />
-          <Image src={image14} alt="item1" className="" />
+        <div className="flex flex-col md:flex-row gap-[30px]">
+          <Image src={image11} alt="item1" className="w-full" />
+          <Image src={image12} alt="item1" className="w-full" />
+          <Image src={image13} alt="item1" className="w-full" />
+          <Image src={image14} alt="item1" className="w-full" />
         </div>
       </div>
-      <div className="flex flex-row gap-[30px] items-center">
-        <Image src={image9} alt="item1" className="" />
-        <h1 className="text-[44px] font-bold font-[volkhov] text-left">End</h1>
+      <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px]"  />
+          <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">End</h1>
       </div>
     </div>
   );

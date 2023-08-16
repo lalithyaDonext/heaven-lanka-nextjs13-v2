@@ -10,13 +10,14 @@ import HomePage from '@/Pages/HomePage'
 import Single7N8DPage from './Single7N-8DPage/page'
 import Single8N9DPage from './single8N-9DPage/page'
 import Single9NPage from './single9NPage/page'
+import Singlepage from './singlePage/page'
 
 export default function Home() {
   return (
      <div>
    
 
-      <HomePage/>
+      <Single6N7DPage/>
     
       
     
