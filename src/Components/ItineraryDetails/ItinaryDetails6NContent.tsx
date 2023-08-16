@@ -182,9 +182,9 @@ const ItinaryDetails6NContent = () => {
           Dambulla & Sigiriya Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={sigiriya2} alt="item1" className="w-full md:" />
-          <Image src={sigiriya3} alt="item1" className="w-full md:" />
-          <Image src={sigiriya4} alt="item1" className="w-full md:" />
+          <Image src={sigiriya2} alt="item1" className="w-[355px] md:" />
+          <Image src={sigiriya3} alt="item1" className="w-[355px] md:" />
+          <Image src={sigiriya4} alt="item1" className="w-[355px] md:" />
         </div>
       </div>
 
@@ -331,9 +331,9 @@ const ItinaryDetails6NContent = () => {
           Kandy Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={Image1} alt="item1" className="w-full" />
-          <Image src={image2} alt="item1" className="w-full" />
-          <Image src={image3} alt="item1" className="w-full" />
+          <Image src={Image1} alt="item1" className="w-[355px]" />
+          <Image src={image2} alt="item1" className="w-[355px]" />
+          <Image src={image3} alt="item1" className="w-[355px]" />
         </div>
       </div>
 
@@ -455,10 +455,10 @@ const ItinaryDetails6NContent = () => {
           Nuwara Eliya Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={NuwaraEliya2} alt="item1" className="w-full" />
-          <Image src={NuwaraEliya3} alt="item1" className="w-full" />
-          <Image src={NuwaraEliya4} alt="item1" className="w-full" />
-          <Image src={NuwaraEliya5} alt="item1" className="w-full" />
+          <Image src={NuwaraEliya2} alt="item1" className="w-[355px]" />
+          <Image src={NuwaraEliya3} alt="item1" className="w-[355px]" />
+          <Image src={NuwaraEliya4} alt="item1" className="w-[355px]" />
+          <Image src={NuwaraEliya5} alt="item1" className="w-[355px]" />
         </div>
       </div>
       
@@ -603,10 +603,10 @@ const ItinaryDetails6NContent = () => {
           Ella Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={Ella2} alt="item1" className="w-full" />
-          <Image src={Ella3} alt="item1" className="w-full" />
-          <Image src={Ella4} alt="item1" className="w-full" />
-          <Image src={Ella5} alt="item1" className="w-full" />
+          <Image src={Ella2} alt="item1" className="w-[355px]" />
+          <Image src={Ella3} alt="item1" className="w-[355px]" />
+          <Image src={Ella4} alt="item1" className="w-[355px]" />
+          <Image src={Ella5} alt="item1" className="w-[355px]" />
         </div>
       </div>
 
@@ -906,10 +906,10 @@ const ItinaryDetails6NContent = () => {
           Colombo Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={image11} alt="item1" className="w-full" />
-          <Image src={image12} alt="item1" className="w-full" />
-          <Image src={image13} alt="item1" className="w-full" />
-          <Image src={image14} alt="item1" className="w-full" />
+          <Image src={image11} alt="item1" className="w-[355px]" />
+          <Image src={image12} alt="item1" className="w-[355px]" />
+          <Image src={image13} alt="item1" className="w-[355px]" />
+          <Image src={image14} alt="item1" className="w-[355px]" />
         </div>
       </div>
       <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">

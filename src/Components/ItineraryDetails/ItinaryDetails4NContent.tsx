@@ -177,9 +177,9 @@ const ItinaryDetails4NContent = () => {
           Dambulla & Sigiriya Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={sigiriya2} alt="item1"className="w-full md:"  />
-          <Image src={sigiriya3} alt="item1"className="w-full md:"  />
-          <Image src={sigiriya4} alt="item1"className="w-full md:"  />
+          <Image src={sigiriya2} alt="item1"className="w-[355px] md:"  />
+          <Image src={sigiriya3} alt="item1"className="w-[355px] md:"  />
+          <Image src={sigiriya4} alt="item1"className="w-[355px] md:"  />
         </div>
       </div>
 
@@ -328,9 +328,9 @@ const ItinaryDetails4NContent = () => {
           Kandy Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={Image1} alt="item1" className="w-full md:"  />
-          <Image src={image2} alt="item1" className="w-full md:"  />
-          <Image src={image3} alt="item1" className="w-full md:"  />
+          <Image src={Image1} alt="item1" className="w-[355px] md:"  />
+          <Image src={image2} alt="item1" className="w-[355px] md:"  />
+          <Image src={image3} alt="item1" className="w-[355px] md:"  />
         </div>
       </div>
 
@@ -474,10 +474,10 @@ const ItinaryDetails4NContent = () => {
           Ella Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={Ella2} alt="item1" className="w-full md:" />
-          <Image src={Ella3} alt="item1" className="w-full md:" />
-          <Image src={Ella4} alt="item1" className="w-full md:" />
-          <Image src={Ella5} alt="item1" className="w-full md:" />
+          <Image src={Ella2} alt="item1" className="w-[355px] md:" />
+          <Image src={Ella3} alt="item1" className="w-[355px] md:" />
+          <Image src={Ella4} alt="item1" className="w-[355px] md:" />
+          <Image src={Ella5} alt="item1" className="w-[355px] md:" />
         </div>
       </div>
 
@@ -669,10 +669,10 @@ const ItinaryDetails4NContent = () => {
           Mirissa Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={Mirissa2} alt="item1" className="w-full md:" />
-          <Image src={Mirissa3} alt="item1" className="w-full md:" />
-          <Image src={Mirissa4} alt="item1" className="w-full md:" />
-          <Image src={Mirissa5} alt="item1" className="w-full md:" />
+          <Image src={Mirissa2} alt="item1" className="w-[355px] md:" />
+          <Image src={Mirissa3} alt="item1" className="w-[355px] md:" />
+          <Image src={Mirissa4} alt="item1" className="w-[355px] md:" />
+          <Image src={Mirissa5} alt="item1" className="w-[355px] md:" />
         </div>
       </div>
       <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">

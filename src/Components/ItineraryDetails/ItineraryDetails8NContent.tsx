@@ -186,9 +186,9 @@ const ItinaryDetails8NContent = () => {
           Dambulla & Sigiriya Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={sigiriya2} alt="item1" className="w-full md:" />
-          <Image src={sigiriya3} alt="item1" className="w-full md:" />
-          <Image src={sigiriya4} alt="item1" className="w-full md:" />
+          <Image src={sigiriya2} alt="item1" className="w-[355px] md:" />
+          <Image src={sigiriya3} alt="item1" className="w-[355px] md:" />
+          <Image src={sigiriya4} alt="item1" className="w-[355px] md:" />
         </div>
       </div>
       {/* ----------------Day 3----------------- */}
@@ -334,9 +334,9 @@ const ItinaryDetails8NContent = () => {
           Kandy Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={Image1} alt="item1" className="w-full" />
-          <Image src={image2} alt="item1" className="w-full" />
-          <Image src={image3} alt="item1" className="w-full" />
+          <Image src={Image1} alt="item1" className="w-[355px]" />
+          <Image src={image2} alt="item1" className="w-[355px]" />
+          <Image src={image3} alt="item1" className="w-[355px]" />
         </div>
       </div>
       {/* ----------------day 04------------ */}
@@ -457,10 +457,10 @@ const ItinaryDetails8NContent = () => {
           Nuwara Eliya Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={NuwaraEliya2} alt="item1" className="w-full" />
-          <Image src={NuwaraEliya3} alt="item1" className="w-full" />
-          <Image src={NuwaraEliya4} alt="item1" className="w-full" />
-          <Image src={NuwaraEliya5} alt="item1" className="w-full" />
+          <Image src={NuwaraEliya2} alt="item1" className="w-[355px]" />
+          <Image src={NuwaraEliya3} alt="item1" className="w-[355px]" />
+          <Image src={NuwaraEliya4} alt="item1" className="w-[355px]" />
+          <Image src={NuwaraEliya5} alt="item1" className="w-[355px]" />
         </div>
       </div>
       
@@ -605,10 +605,10 @@ const ItinaryDetails8NContent = () => {
           Ella Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={Ella2} alt="item1" className="w-full" />
-          <Image src={Ella3} alt="item1" className="w-full" />
-          <Image src={Ella4} alt="item1" className="w-full" />
-          <Image src={Ella5} alt="item1" className="w-full" />
+          <Image src={Ella2} alt="item1" className="w-[355px]" />
+          <Image src={Ella3} alt="item1" className="w-[355px]" />
+          <Image src={Ella4} alt="item1" className="w-[355px]" />
+          <Image src={Ella5} alt="item1" className="w-[355px]" />
         </div>
       </div>
 
@@ -801,10 +801,10 @@ const ItinaryDetails8NContent = () => {
           Mirissa Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={Mirissa2} alt="item1" className="w-full" />
-          <Image src={Mirissa3} alt="item1" className="w-full" />
-          <Image src={Mirissa4} alt="item1" className="w-full" />
-          <Image src={Mirissa5} alt="item1" className="w-full" />
+          <Image src={Mirissa2} alt="item1" className="w-[355px]" />
+          <Image src={Mirissa3} alt="item1" className="w-[355px]" />
+          <Image src={Mirissa4} alt="item1" className="w-[355px]" />
+          <Image src={Mirissa5} alt="item1" className="w-[355px]" />
         </div>
       </div>
       {/* ---------------day 07-------- */}
@@ -939,10 +939,10 @@ const ItinaryDetails8NContent = () => {
           Ella Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={Bentota2} alt="item1" className="w-full" />
-          <Image src={Bentota3} alt="item1" className="w-full" />
-          <Image src={Bentota4} alt="item1" className="w-full" />
-          <Image src={Bentota5} alt="item1" className="w-full" />
+          <Image src={Bentota2} alt="item1" className="w-[355px]" />
+          <Image src={Bentota3} alt="item1" className="w-[355px]" />
+          <Image src={Bentota4} alt="item1" className="w-[355px]" />
+          <Image src={Bentota5} alt="item1" className="w-[355px]" />
         </div>
       </div>
       {/* --------------08 day---------- */}
@@ -1044,10 +1044,10 @@ const ItinaryDetails8NContent = () => {
           Colombo Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={image11} alt="item1" className="w-full" />
-          <Image src={image12} alt="item1" className="w-full" />
-          <Image src={image13} alt="item1" className="w-full" />
-          <Image src={image14} alt="item1" className="w-full" />
+          <Image src={image11} alt="item1" className="w-[355px]" />
+          <Image src={image12} alt="item1" className="w-[355px]" />
+          <Image src={image13} alt="item1" className="w-[355px]" />
+          <Image src={image14} alt="item1" className="w-[355px]" />
         </div>
       </div>
       <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">

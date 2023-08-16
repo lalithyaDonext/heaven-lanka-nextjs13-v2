@@ -189,9 +189,9 @@ const ItinaryDetails9NContent = () => {
           Dambulla & Sigiriya Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={sigiriya2} alt="item1" className="w-full md:" />
-          <Image src={sigiriya3} alt="item1" className="w-full md:" />
-          <Image src={sigiriya4} alt="item1" className="w-full md:" />
+          <Image src={sigiriya2} alt="item1" className="w-[355px] md:" />
+          <Image src={sigiriya3} alt="item1" className="w-[355px] md:" />
+          <Image src={sigiriya4} alt="item1" className="w-[355px] md:" />
         </div>
       </div>
       {/* ----------------Day 3----------------- */}
@@ -337,9 +337,9 @@ const ItinaryDetails9NContent = () => {
           Kandy Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={Image1} alt="item1" className="w-full" />
-          <Image src={image2} alt="item1" className="w-full" />
-          <Image src={image3} alt="item1" className="w-full" />
+          <Image src={Image1} alt="item1" className="w-[355px]" />
+          <Image src={image2} alt="item1" className="w-[355px]" />
+          <Image src={image3} alt="item1" className="w-[355px]" />
         </div>
       </div>
       {/* ----------------day 04------------ */}

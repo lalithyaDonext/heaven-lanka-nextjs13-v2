@@ -116,63 +116,183 @@
 // export default NavbarOne;
 
 
-'use client'; 
+// 'use client'; 
+// import Image from "next/image";
+// import { useState } from "react";
+// import { useRouter } from "next/navigation";
+
+// import logo from "../../../assets/Logo/logo.png";
+// import { log } from "console";
+
+
+// let navoption:number;
+
+// const NavbarOne = () => {
+//   const router = useRouter();
+
+//   const [selected, setSelected] = useState(2);
+//   console.log('selecte' , selected);
+  
+// console.log("nav" , navoption);
+
+//   const handleChange = (id: number) => {
+//     navoption = id;
+//     setSelected(id);
+    
+//   };
+
+
+
+//   return (
+//     <div className=" bg-gradient-to-t from-transparent to-teal-700 md:bg-[#077B83]">
+//       <div className="container mx-auto px-4 md:px-8 py-4">
+//         <div className="flex justify-between items-center">
+//           <div className="w-32 md:w-44">
+//             <Image
+//               src={logo}
+//               alt="item1"
+//               layout="responsive"
+//               width={100}
+//               height={100}
+//             />
+//           </div>
+//           <div className="flex items-center space-x-2 md:space-x-4">
+//             <div className="md:hidden"> {/* Hide the menu on larger screens */}
+//               <button
+//                 className="text-white"
+//                 onClick={() => {
+//                   // You can toggle the mobile menu here
+//                 }}
+//               >
+//                 ☰
+//               </button>
+//             </div>
+//             {/* Mobile menu */}
+//             <div className="hidden md:flex md:space-x-4">
+//               <button
+//                 className={`text-white ${
+//                   selected === 1 ? "font-bold" : ""
+//                 }`}
+//                 onClick={() => {
+//                   handleChange(1);
+//                   router.push("/");
+//                 }}
+//               >
+//                 Home
+//               </button>
+//               <button
+//                 className={`text-white ${
+//                   selected === 2 ? "font-bold" : ""
+//                 }`}
+//                 onClick={() => {
+//                   handleChange(2);
+//                   router.push("/tourPage");
+//                 }}
+//               >
+//                 Tours
+//               </button>
+//               <button
+//                 className={`text-white ${
+//                   selected === 3 ? "font-bold" : ""
+//                 }`}
+//                 onClick={() => {
+//                   handleChange(3);
+//                   router.push("/aboutUspage");
+//                 }}
+//               >
+//                 About
+//               </button>
+//               <button
+//                 className={`text-white ${
+//                   selected === 4 ? "font-bold" : ""
+//                 }`}
+//                 onClick={() => {
+//                   handleChange(4);
+//                   router.push("/testimonials");
+//                 }}
+//               >
+//                 Testimonials
+//               </button>
+//               <button
+//                 className={`text-white ${
+//                   selected === 5 ? "font-bold" : ""
+//                 }`}
+//                 onClick={() => {
+//                   handleChange(5);
+//                   router.push("/contact");
+//                 }}
+//               >
+//                 Contact
+//               </button>
+//               <button
+//                 className={`text-white ${
+//                   selected === 6 ? "font-bold" : ""
+//                 }`}
+//                 onClick={() => {
+//                   handleChange(6);
+//                   router.push("/explore");
+//                 }}
+//               >
+//                 Explore
+//               </button>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default NavbarOne;
+
+
+'use client';
 import Image from "next/image";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 import logo from "../../../assets/Logo/logo.png";
-import { log } from "console";
 
-
-let navoption:number;
-
-const NavbarOne = () => {
+const Navbar = () => {
   const router = useRouter();
 
-  const [selected, setSelected] = useState(2);
-  console.log('selecte' , selected);
-  
-console.log("nav" , navoption);
+  const [selected, setSelected] = useState(1);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const handleChange = (id: number) => {
-    navoption = id;
+  const handleChange = ({id}:any) => {
     setSelected(id);
-    
   };
 
-
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen); 
+    // Toggle the mobile menu logic
+  };
 
   return (
-    <div className=" bg-gradient-to-t from-transparent to-teal-700 md:bg-[#077B83]">
-      <div className="container mx-auto px-4 md:px-8 py-4">
+    <div className="bg-gradient-to-t from-transparent to-teal-700 md:bg-[#077B83]">
+      <div className="container mx-auto px-4 md:px-8 py-3">
         <div className="flex justify-between items-center">
-          <div className="w-32 md:w-44">
+          <div className="w-28 md:w-36">
             <Image
               src={logo}
               alt="item1"
               layout="responsive"
-              width={100}
-              height={100}
+              width={450}
+              height={400}
             />
           </div>
           <div className="flex items-center space-x-2 md:space-x-4">
-            <div className="md:hidden"> {/* Hide the menu on larger screens */}
+            <div className="md:hidden">
               <button
-                className="text-white"
-                onClick={() => {
-                  // You can toggle the mobile menu here
-                }}
+                className="text-white text-2xl"
+                onClick={toggleMobileMenu}
               >
                 ☰
               </button>
             </div>
-            {/* Mobile menu */}
             <div className="hidden md:flex md:space-x-4">
               <button
-                className={`text-white ${
-                  selected === 1 ? "font-bold" : ""
-                }`}
+                className={`text-white ${selected === 1 ? "font-bold" : ""}`}
                 onClick={() => {
                   handleChange(1);
                   router.push("/");
@@ -181,9 +301,7 @@ console.log("nav" , navoption);
                 Home
               </button>
               <button
-                className={`text-white ${
-                  selected === 2 ? "font-bold" : ""
-                }`}
+                className={`text-white ${selected === 2 ? "font-bold" : ""}`}
                 onClick={() => {
                   handleChange(2);
                   router.push("/tourPage");
@@ -192,9 +310,7 @@ console.log("nav" , navoption);
                 Tours
               </button>
               <button
-                className={`text-white ${
-                  selected === 3 ? "font-bold" : ""
-                }`}
+                className={`text-white ${selected === 3 ? "font-bold" : ""}`}
                 onClick={() => {
                   handleChange(3);
                   router.push("/aboutUspage");
@@ -203,9 +319,7 @@ console.log("nav" , navoption);
                 About
               </button>
               <button
-                className={`text-white ${
-                  selected === 4 ? "font-bold" : ""
-                }`}
+                className={`text-white ${selected === 4 ? "font-bold" : ""}`}
                 onClick={() => {
                   handleChange(4);
                   router.push("/testimonials");
@@ -214,9 +328,7 @@ console.log("nav" , navoption);
                 Testimonials
               </button>
               <button
-                className={`text-white ${
-                  selected === 5 ? "font-bold" : ""
-                }`}
+                className={`text-white ${selected === 5 ? "font-bold" : ""}`}
                 onClick={() => {
                   handleChange(5);
                   router.push("/contact");
@@ -225,9 +337,7 @@ console.log("nav" , navoption);
                 Contact
               </button>
               <button
-                className={`text-white ${
-                  selected === 6 ? "font-bold" : ""
-                }`}
+                className={`text-white ${selected === 6 ? "font-bold" : ""}`}
                 onClick={() => {
                   handleChange(6);
                   router.push("/explore");
@@ -238,9 +348,83 @@ console.log("nav" , navoption);
             </div>
           </div>
         </div>
+        {/* Mobile menu */}
+        <div
+          className={`md:hidden mt-1 bg-teal ${
+            mobileMenuOpen ? "block" : "hidden"
+          }`}
+        >
+          <button
+            className={`block w-full text-gray text-right pb-2 ${
+              selected === 1 ? "font-bold" : ""
+            }`}
+            onClick={() => {
+              handleChange(1);
+              router.push("/");
+            }}
+          >
+            Home
+          </button>
+          <button
+            className={`block w-full text-gray text-right py-2 ${
+              selected === 2 ? "font-bold" : ""
+            }`}
+            onClick={() => {
+              handleChange(2);
+              router.push("/tourPage");
+            }}
+          >
+            Tours
+          </button>
+          <button
+            className={`block w-full text-gray text-right py-2 ${
+              selected === 3 ? "font-bold" : ""
+            }`}
+            onClick={() => {
+              handleChange(3);
+              router.push("/aboutUspage");
+            }}
+          >
+            About
+          </button>
+          <button
+            className={`block w-full text-gray text-right py-2 ${
+              selected === 4 ? "font-bold" : ""
+            }`}
+            onClick={() => {
+              handleChange(4);
+              router.push("/testimonials");
+            }}
+          >
+            Testimonials
+          </button>
+          <button
+            className={`block w-full text-gray text-right py-2 ${
+              selected === 5 ? "font-bold" : ""
+            }`}
+            onClick={() => {
+              handleChange(5);
+              router.push("/contact");
+            }}
+          >
+            Contact
+          </button>
+          <button
+            className={`block w-full text-gray text-right py-2 ${
+              selected === 6 ? "font-bold" : ""
+            }`}
+            onClick={() => {
+              handleChange(6);
+              router.push("/explore");
+            }}
+          >
+            Explore
+          </button>
+        </div>
       </div>
     </div>
   );
 };
 
-export default NavbarOne;
+export default Navbar;
+

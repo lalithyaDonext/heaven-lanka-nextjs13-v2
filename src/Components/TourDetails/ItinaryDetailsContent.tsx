@@ -163,9 +163,9 @@ const ItinaryDetailsContent = () => {
           Kandy Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={Image1} alt="item1" className="w-full" />
-          <Image src={image2} alt="item1" className="w-full" />
-          <Image src={image3} alt="item1" className="w-full" />
+          <Image src={Image1} alt="item1" className="w-[355px]" />
+          <Image src={image2} alt="item1" className="w-[355px]" />
+          <Image src={image3} alt="item1" className="w-[355px]" />
         </div>
       </div>
 
@@ -268,10 +268,10 @@ const ItinaryDetailsContent = () => {
           Colombo Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={image11} alt="item1" className="w-full" />
-          <Image src={image12} alt="item1" className="w-full" />
-          <Image src={image13} alt="item1" className="w-full" />
-          <Image src={image14} alt="item1" className="w-full" />
+          <Image src={image11} alt="item1" className="w-[355px]" />
+          <Image src={image12} alt="item1" className="w-[355px]" />
+          <Image src={image13} alt="item1" className="w-[355px]" />
+          <Image src={image14} alt="item1" className="w-[355px]" />
         </div>
       </div>
       <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
