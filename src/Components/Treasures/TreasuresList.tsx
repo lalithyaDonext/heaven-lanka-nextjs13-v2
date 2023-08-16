@@ -49,7 +49,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Slider from '../Shared/Slider';
+// import Slider from '../Shared/Slider';
 import TreasuresCard from './TreasuresCard';
 
 import beach from '../../../assets/Treasures/beach.png';
@@ -79,11 +79,11 @@ const TreasuresList = () => {
 
   return (
     <div className='flex flex-row md:flex-row items-center justify-center mt-4'>
-      <Slider>
+      {/* <Slider> */}
         {TreasuresLists.map((item, index) => (
           <TreasuresCard key={index} item={item} />
         ))}
-      </Slider>
+      {/* </Slider> */}
     </div>
   );
 };
