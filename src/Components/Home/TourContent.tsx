@@ -14,7 +14,7 @@ const TourContent = () => {
   
     return (
         <div className="">
-            <div className="flex justify-center mt-8 md:-mt-[185px]">
+            <div className="flex justify-center mt-8 md:-mt-[185px] px-[20px]">
         <QuotesCard />
       </div>
             <div className="container mx-auto md:px-20  flex flex-col justify-center items-center mt-[100px] space-y-4">
