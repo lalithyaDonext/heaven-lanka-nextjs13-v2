@@ -9,7 +9,7 @@ const TourPageMap8N = () => {
          <Image
                     src={image}
                     alt="item1"
-                    className="object-cover w-full h-full mt-[-40px] pt-10"
+                    className="object-cover w-full h-full"
                 />
 
   
