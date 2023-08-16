@@ -60,7 +60,7 @@ const FeedbackMsgCard = ({ message }: any) => {
           className="rounded-full"
         />
       </div>
-      <div className="w-full md:w-[400px] h-[160px] md:h-[200px] p-4 md:p-5 shadow-md flex flex-col bg-[#ffffff] border border-gray-100 rounded-md my-2">
+      <div className="w-full md:w-[400px] h-[175px] md:h-[200px] p-4 md:p-5 shadow-md flex flex-col bg-[#ffffff] border border-gray-100 rounded-md my-2">
         <div className="text-left text-[#E9B4A5] font-medium text-xs md:text-sm">
           {message.content}
         </div>
