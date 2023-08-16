@@ -180,9 +180,9 @@ const ItinaryDetails7NContent = () => {
           Dambulla & Sigiriya Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={sigiriya2} alt="item1" className="w-full md:" />
-          <Image src={sigiriya3} alt="item1" className="w-full md:" />
-          <Image src={sigiriya4} alt="item1" className="w-full md:" />
+          <Image src={sigiriya2} alt="item1" className="w-[355px] md:" />
+          <Image src={sigiriya3} alt="item1" className="w-[355px] md:" />
+          <Image src={sigiriya4} alt="item1" className="w-[355px] md:" />
         </div>
       </div>
       {/* ----------------Day 2----------------- */}
@@ -328,9 +328,9 @@ const ItinaryDetails7NContent = () => {
           Kandy Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={Image1} alt="item1" className="w-full md:" />
-          <Image src={image2} alt="item1" className="w-full md:" />
-          <Image src={image3} alt="item1" className="w-full md:" />
+          <Image src={Image1} alt="item1" className="w-[355px] md:" />
+          <Image src={image2} alt="item1" className="w-[355px] md:" />
+          <Image src={image3} alt="item1" className="w-[355px] md:" />
         </div>
       </div>
       {/* ----------------day 03------------ */}
@@ -451,10 +451,10 @@ const ItinaryDetails7NContent = () => {
           Nuwara Eliya Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={NuwaraEliya2} alt="item1" className="w-full md:" />
-          <Image src={NuwaraEliya3} alt="item1" className="w-full md:" />
-          <Image src={NuwaraEliya4} alt="item1" className="w-full md:" />
-          <Image src={NuwaraEliya5} alt="item1" className="w-full md:" />
+          <Image src={NuwaraEliya2} alt="item1" className="w-[355px] md:" />
+          <Image src={NuwaraEliya3} alt="item1" className="w-[355px] md:" />
+          <Image src={NuwaraEliya4} alt="item1" className="w-[355px] md:" />
+          <Image src={NuwaraEliya5} alt="item1" className="w-[355px] md:" />
         </div>
       </div>
       {/* --------------------day04---------------------- */}
@@ -643,10 +643,10 @@ const ItinaryDetails7NContent = () => {
           Mirissa Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={Mirissa2} alt="item1" className="w-full md:" />
-          <Image src={Mirissa3} alt="item1" className="w-full md:" />
-          <Image src={Mirissa4} alt="item1" className="w-full md:" />
-          <Image src={Mirissa5} alt="item1" className="w-full md:" />
+          <Image src={Mirissa2} alt="item1" className="w-[355px] md:" />
+          <Image src={Mirissa3} alt="item1" className="w-[355px] md:" />
+          <Image src={Mirissa4} alt="item1" className="w-[355px] md:" />
+          <Image src={Mirissa5} alt="item1" className="w-[355px] md:" />
         </div>
       </div>
       {/* ---------------day 05-------- */}
@@ -779,10 +779,10 @@ and explore the historic Madu Ganga Temple.
           Ella Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={Bentota2} alt="item1" className="w-full md:" />
-          <Image src={Bentota3} alt="item1" className="w-full md:" />
-          <Image src={Bentota4} alt="item1" className="w-full md:" />
-          <Image src={Bentota5} alt="item1" className="w-full md:" />
+          <Image src={Bentota2} alt="item1" className="w-[355px] md:" />
+          <Image src={Bentota3} alt="item1" className="w-[355px] md:" />
+          <Image src={Bentota4} alt="item1" className="w-[355px] md:" />
+          <Image src={Bentota5} alt="item1" className="w-[355px] md:" />
         </div>
       </div>
       {/* --------------06 day---------- */}
@@ -884,10 +884,10 @@ and explore the historic Madu Ganga Temple.
           Colombo Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={image11} alt="item1" className="w-full md:" />
-          <Image src={image12} alt="item1" className="w-full md:" />
-          <Image src={image13} alt="item1" className="w-full md:" />
-          <Image src={image14} alt="item1" className="w-full md:" />
+          <Image src={image11} alt="item1" className="w-[355px] md:" />
+          <Image src={image12} alt="item1" className="w-[355px] md:" />
+          <Image src={image13} alt="item1" className="w-[355px] md:" />
+          <Image src={image14} alt="item1" className="w-[355px] md:" />
         </div>
       </div>
       <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">

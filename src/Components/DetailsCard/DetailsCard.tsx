@@ -24,7 +24,7 @@ const DetailsCard = ({ item }: any) => {
       <div className="text-center md:text-left mb-4 md:mb-6">
         {item.icon}
       </div>
-      <h1 className="font-bold text-[12px] md:text-2xl leading-[1.25] w-[30px] 2xl:w-[250px] pt-4 md:pt-8 pb-2 md:pb-4">
+      <h1 className="font-bold text-[12px] md:text-2xl leading-[1.25] w-[60px] 2xl:w-[250px] pt-4 md:pt-8 pb-2 md:pb-4">
         {item.name}
       </h1>
       <p className="hidden text-sm md:flex md:text-base">{item.details}</p>

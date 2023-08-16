@@ -66,7 +66,7 @@ const VaccationCard = ({ duration,image,name,rate,price,quoted,pathName}:any) =>
 
   return (
     <div
-      className='h-[340px] w-52 shadow-lg flex flex-col border border-gray-100 rounded-md my-2 cursor-pointer'
+      className='md:h-[340px] md:w-52 w-full shadow-lg flex flex-col border border-gray-100 rounded-md my-2 cursor-pointer'
       onClick={() => router.push(pathName)}
     >
       <div className='absolute pt-[10px] pl-[120px]'>
@@ -93,13 +93,13 @@ const VaccationCard = ({ duration,image,name,rate,price,quoted,pathName}:any) =>
         </div>
         <div>{rate}</div>
       </div>
-      <div className='flex flex-row gap-[8px] '>
-        <div className='pl-[95px]'>From</div>
+      <div className='flex flex-row gap-[8px] py-2 pr-3 md:pr-0 '>
+        <div className='pl-[180px] md:pl-[95px]'>From</div>
         <div>
           <button className="w-[52px] h-[28px] bg-[#FA7436] rounded-[10px] text-[#FFFFFF] text-sm">
             {price}
           </button>
-          <span className='text-[10px] text-[#444444]'>{quoted}</span>
+          <span className='pl-2 text-[10px] text-[#444444]'>{quoted}</span>
         </div>
       </div>
     </div>

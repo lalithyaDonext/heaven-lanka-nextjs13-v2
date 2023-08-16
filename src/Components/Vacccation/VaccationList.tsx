@@ -178,7 +178,7 @@ const VaccationList = () => {
         </div>
      
       </div>
-      <div className='flex flex-row justify-center items-center gap-[20px] mt-[20px]'>
+      {/* <div className='flex flex-row justify-center items-center gap-[20px] mt-[20px]'>
         <FiArrowLeftCircle
           className='w-8 h-8 text-[#FFFFFF] fill-[#999999]'
           onClick={goToPrevCard}
@@ -187,7 +187,7 @@ const VaccationList = () => {
           className='w-8 h-8 text-[#FFFFFF] fill-[#077B83]'
           onClick={goToNextCard}
         />
-      </div>
+      </div> */}
     </div>
   );
 };
