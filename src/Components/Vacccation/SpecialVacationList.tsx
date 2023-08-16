@@ -76,24 +76,58 @@ const SpecialVacationaList = () => {
               duration:'8N/9D',
               quoted:'per person'
             },
-          // {
-          //   image: beach,
-          //   name: "Unspoiled Beaches",
-          // },
-          // {
-          //   image: beach,
-          //   name: "Unspoiled Beaches",
-          // },
+       
     ]
 
     const displayedItems = VaccationLists.slice(0, 4);
 
     return ( 
       <div>
-        <div className='flex flex-row items-center gap-[30px] justify-center mt-4'>
-          {displayedItems.map((item, index) => (
+        <div className='flex flex-col md:flex-row items-center gap-[30px] justify-center mt-4'>
+          {/* {displayedItems.map((item, index) => (
             <VaccationCard key={index} item={item} />
-          ))}
+          ))} */}
+
+<VaccationCard
+          image={HillCountry}
+          name='Cultural Highlights'
+          rate= '4.8'
+          price= '$850'
+          duration= '2N/3D'
+          quoted= 'per person'
+          pathName='./singlePage'
+          />
+
+<VaccationCard
+         image= {WildLife}
+         name= 'Adventurous Escapes'
+         rate= '4.9'
+         price= '$950'
+         duration= '7N/8D'
+         quoted= 'per person'
+          pathName='./single7N8DPage'
+          />
+
+<VaccationCard
+          image= {Island}
+          name='Historical Marvels'
+          rate= '5.0'
+          price='$800'
+          duration= '9N/10D'
+          quoted= 'per person'
+          pathName='./single9NPage'
+          />
+
+<VaccationCard
+          image= {HillCountry}
+          name= 'Wellness Retreats'
+          rate= '4.8'
+          price= '$500'
+          duration= '12N/13D'
+          quoted= 'per person'
+          pathName='./singlePage'
+          />
+    
         </div>
         <div className='mt-20'>
           <Ratings/>

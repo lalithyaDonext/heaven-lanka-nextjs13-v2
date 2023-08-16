@@ -61,23 +61,23 @@ import Image from 'next/image';
 import { FaStar } from 'react-icons/fa';
 import { useRouter } from 'next/navigation';
 
-const VaccationCard = ({ item }:any) => {
+const VaccationCard = ({ duration,image,name,rate,price,quoted,pathName}:any) => {
   const router = useRouter();
 
   return (
     <div
       className='h-[340px] w-52 shadow-lg flex flex-col border border-gray-100 rounded-md my-2 cursor-pointer'
-      onClick={() => router.push('/singlePage')}
+      onClick={() => router.push(pathName)}
     >
       <div className='absolute pt-[10px] pl-[120px]'>
         <button className="w-[72px] h-[20px] bg-[#077B83] rounded-[10px] text-[#FFFFFF] text-[12px]">
-          {item.duration}
+          {duration}
         </button>
       </div>
       <div>
         <Image
           className="border rounded-[10px] pt-[-10px]"
-          src={item.image}
+          src={image}
           alt="item1"
           layout="responsive"
           width={100}
@@ -85,21 +85,21 @@ const VaccationCard = ({ item }:any) => {
         />
       </div>
       <h1 className='text-[#077B83] text-sm font-semibold text-left pl-[10px] pt-[10px]'>
-        {item.name}
+        {name}
       </h1>
       <div className='flex flex-row gap-[6px]'>
         <div className='text-[#fbbc05] pl-[10px] mt-[3px]'>
           <FaStar />
         </div>
-        <div>{item.rate}</div>
+        <div>{rate}</div>
       </div>
       <div className='flex flex-row gap-[8px] '>
         <div className='pl-[95px]'>From</div>
         <div>
           <button className="w-[52px] h-[28px] bg-[#FA7436] rounded-[10px] text-[#FFFFFF] text-sm">
-            {item.price}
+            {price}
           </button>
-          <span className='text-[10px] text-[#444444]'>{item.quoted}</span>
+          <span className='text-[10px] text-[#444444]'>{quoted}</span>
         </div>
       </div>
     </div>

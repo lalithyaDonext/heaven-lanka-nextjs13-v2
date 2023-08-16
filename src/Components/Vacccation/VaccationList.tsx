@@ -85,33 +85,33 @@ const VaccationList = () => {
     {
       image: Cultural,
       name: 'Cultural Highlights',
-      rate: '5.0',
-      price: '$400',
-      duration: '4N/5D',
+      rate: '4.8',
+      price: '$850',
+      duration: '2N/3D',
       quoted: 'per person',
     },
     {
       image: WildLife,
       name: 'Adventurous Escapes',
-      rate: '5.0',
-      price: '$400',
-      duration: '3N/4D',
+      rate: '4.9',
+      price: '$950',
+      duration: '7N/8D',
       quoted: 'per person',
     },
     {
       image: Island,
       name: 'Historical Marvels',
-      rate: '4.0',
+      rate: '5.0',
       price: '$800',
-      duration: '6N/7D',
+      duration: '9N/10D',
       quoted: 'per person',
     },
     {
       image: HillCountry,
       name: 'Wellness Retreats',
-      rate: '4.9',
+      rate: '4.8',
       price: '$500',
-      duration: '8N/9D',
+      duration: '12N/13D',
       quoted: 'per person',
     },
   ];
@@ -132,13 +132,51 @@ const VaccationList = () => {
     <div>
       <div className='flex flex-col items-center mt-4'>
         <div className='md:flex md:justify-center md:gap-4 md:items-center'>
-          {VaccationLists.map((item, index) => (
+          {/* {VaccationLists.map((item, index) => (
             <VaccationCard key={index} item={item} />
-          ))}
+          ))} */}
+
+          <VaccationCard
+          image={HillCountry}
+          name='Cultural Highlights'
+          rate= '4.8'
+          price= '$850'
+          duration= '2N/3D'
+          quoted= 'per person'
+          pathName='./singlePage'
+          />
+
+<VaccationCard
+         image= {WildLife}
+         name= 'Adventurous Escapes'
+         rate= '4.9'
+         price= '$950'
+         duration= '7N/8D'
+         quoted= 'per person'
+          pathName='./single7N8DPage'
+          />
+
+<VaccationCard
+          image= {Island}
+          name='Historical Marvels'
+          rate= '5.0'
+          price='$800'
+          duration= '9N/10D'
+          quoted= 'per person'
+          pathName='./single9NPage'
+          />
+
+<VaccationCard
+          image= {HillCountry}
+          name= 'Wellness Retreats'
+          rate= '4.8'
+          price= '$500'
+          duration= '12N/13D'
+          quoted= 'per person'
+          pathName='./singlePage'
+          />
         </div>
-        <div className='md:hidden'>
-          <VaccationCard item={VaccationLists[currentCard]} />
-        </div>
+     
       </div>
       <div className='flex flex-row justify-center items-center gap-[20px] mt-[20px]'>
         <FiArrowLeftCircle

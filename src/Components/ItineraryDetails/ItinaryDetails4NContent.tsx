@@ -31,18 +31,18 @@ const ItinaryDetails4NContent = () => {
   return (
     <div className="flex flex-col gap-[90px] justify-start  mt-[100PX]">
       <div className="flex flex-col justify-start items-left">
-        <div className="flex flex-row gap-[30px] items-center">
-          <Image src={image9} alt="item1" className="" />
-          <h1 className="text-[44px] font-bold font-[volkhov] text-left">
+        <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px]" />
+          <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 01 - <span className="text-[#077B83]">Dambulla & Sigiriya</span>
           </h1>
         </div>
-        <div className="font-[700] text-[20px] leading-[28px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-row gap-[50px] mt-[40px] pl-[70px]">
-          <div className="flex flex-row gap-[60px] w-[570px] font-[400] text-[20px] leading-[32px]">
-            <div className="flex flex-col gap-[50px]">
+        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[70px]">
+          <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
+            <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
                 Dambulla is a city in the Central Province of Sri Lanka, located
                 approximately 148 km northeast of Colombo. It is famous for its
@@ -57,16 +57,16 @@ const ItinaryDetails4NContent = () => {
                 visitors.
               </p>
 
-              <div className="flex flex-col gap-[30px]">
-                <div className="flex flex-row gap-[20px]">
-                  <Image src={iconView} alt="item1" className="" />
+            <div className="flex flex-col md:gap-[30px]">
+                <div className="flex flex-row items-center gap-[20px]">
+                  <Image src={iconView} alt="item1" className="w-[25px] h-[18px] md:w-[45px] md:h-[32px]" />
 
                   <span className="font-semibold">
                     Amaya Lake Dambulla (5 Star Hotel)
                   </span>
                 </div>
-                <div className="flex flex-row gap-[20px]">
-                  <Image src={iconViewOne} alt="item1" className="" />
+               <div className="flex flex-row  items-center gap-[20px]">
+                  <Image src={iconViewOne} alt="item1" className="w-[24px] h-[20px] md:w-[43px] md:h-[36px]" />
 
                   <span className="font-semibold">Half Board Basis</span>
                 </div>
@@ -84,19 +84,19 @@ const ItinaryDetails4NContent = () => {
       </div>
 
       <div>
-        <div className="flex flex-col gap-[40px] pl-[70px]">
-          <h1 className="text-[36px] font-bold font-[volkhov] text-left">
+         <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]">
+          <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
             Activities
           </h1>
-          <div className="flex flex-col gap-[30px]">
+          <div className="flex flex-col md:gap-[30px]">
             <div className="flex flex-row gap-[20px] ">
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Explore Sigiriya Rock Fortress: Dubbed the “Eighth Wonder of the
                 World,” this ancient palace and fortress is perched atop a
                 towering rock and offers stunning views of the surrounding
@@ -107,10 +107,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Visit the Dambulla Cave Temple: This UNESCO World Heritage Site
                 is a complex of cave temples with elaborate murals and statues
                 of Buddha
@@ -120,10 +120,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Go on a Cultural Tour: Explore the history and culture of Sri
                 Lanka by visiting villages, local markets, and traditional
                 crafts centers.
@@ -133,10 +133,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Learn about Spice Farming: Dambulla is famous for its spices,
                 and you can learn about the different varieties and their uses
                 on a tour of a spice farm.
@@ -146,10 +146,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Try Local Cuisine: Sample traditional Sri Lankan dishes such as
                 rice and curry, hoppers, and string hoppers at local restaurants
                 and street food stalls.
@@ -159,10 +159,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Shop for Souvenirs: Browse local markets and specialty shops for
                 handmade crafts, jewelry, and textiles to bring home as a
                 reminder of your trip.
@@ -172,31 +172,31 @@ const ItinaryDetails4NContent = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-[40px] pl-[70px]">
-        <h1 className="text-[36px] font-bold font-[volkhov] text-left">
+     <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]">
+        <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
           Dambulla & Sigiriya Highlights
         </h1>
-        <div className="flex flex-row gap-[30px]">
-          <Image src={sigiriya2} alt="item1" className="" />
-          <Image src={sigiriya3} alt="item1" className="" />
-          <Image src={sigiriya4} alt="item1" className="" />
+        <div className="flex flex-col md:flex-row gap-[30px]">
+          <Image src={sigiriya2} alt="item1"className="w-full md:"  />
+          <Image src={sigiriya3} alt="item1"className="w-full md:"  />
+          <Image src={sigiriya4} alt="item1"className="w-full md:"  />
         </div>
       </div>
 
       {/* ----------------Day 2----------------- */}
       <div className="flex flex-col justify-start items-left">
-        <div className="flex flex-row gap-[30px] items-center">
-          <Image src={image9} alt="item1" className="" />
-          <h1 className="text-[44px] font-bold font-[volkhov] text-left">
+        <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px]" />
+          <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 02 - <span className="text-[#077B83]"> Kandy</span>
           </h1>
         </div>
-        <div className="font-[700] text-[20px] leading-[28px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-row gap-[50px] mt-[40px] pl-[70px]">
-          <div className="flex flex-row gap-[60px] w-[570px] font-[400] text-[20px] leading-[32px]">
-            <div className="flex flex-col gap-[50px]">
+        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[70px]">
+          <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
+            <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
                 Kandy is a city in central Sri Lanka, also known as the Hill
                 Capital of Sri Lanka. It is the second largest city in the
@@ -210,16 +210,16 @@ const ItinaryDetails4NContent = () => {
                 Sri Lanka.
               </p>
 
-              <div className="flex flex-col gap-[30px]">
-                <div className="flex flex-row gap-[20px]">
-                  <Image src={iconView} alt="item1" className="" />
+            <div className="flex flex-col md:gap-[30px]">
+                <div className="flex flex-row items-center gap-[20px]">
+                  <Image src={iconView} alt="item1" className="w-[25px] h-[18px] md:w-[45px] md:h-[32px]" />
 
                   <span className="font-semibold">
                     Cinnamon Citadel (4 Star Hotel)
                   </span>
                 </div>
-                <div className="flex flex-row gap-[20px]">
-                  <Image src={iconViewOne} alt="item1" className="" />
+               <div className="flex flex-row  items-center gap-[20px]">
+                  <Image src={iconViewOne} alt="item1" className="w-[24px] h-[20px] md:w-[43px] md:h-[36px]" />
 
                   <span className="font-semibold">Half Board Basis</span>
                 </div>
@@ -237,19 +237,19 @@ const ItinaryDetails4NContent = () => {
       </div>
 
       <div>
-        <div className="flex flex-col gap-[40px] pl-[70px]">
-          <h1 className="text-[36px] font-bold font-[volkhov] text-left">
+         <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]">
+          <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
             Activities
           </h1>
-          <div className="flex flex-col gap-[30px]">
+          <div className="flex flex-col md:gap-[30px]">
             <div className="flex flex-row gap-[20px] ">
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Visit the Temple of the Tooth Relic: This temple is considered
                 to be one of the most sacred Buddhist temples in the world and
                 is a must-visit when in Kandy.{" "}
@@ -259,10 +259,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Explore the Royal Botanic Gardens: With over 4000 species of
                 plants and trees, this garden is a piece of paradise on earth.
               </span>
@@ -271,10 +271,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Watch a cultural performance: Kandy is home to traditional dance
                 and music performances that showcase the rich culture of Sri
                 Lanka.{" "}
@@ -284,10 +284,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Walk around the Kandy Lake: This scenic lake is a peaceful spot
                 to relax, take in the views, and watch the locals go about their
                 day.{" "}
@@ -297,10 +297,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Browse the markets: Kandy has many markets selling fresh fruits,
                 vegetables, spices, and handicrafts.{" "}
               </span>
@@ -309,10 +309,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Visit tea plantations: Kandy is surrounded by lush tea
                 plantations that produce some of Sri Lanka&apos;s best teas. Take a
                 tour of one of these plantations to learn about the tea making
@@ -323,31 +323,31 @@ const ItinaryDetails4NContent = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-[40px] pl-[70px]">
-        <h1 className="text-[36px] font-bold font-[volkhov] text-left">
+     <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]">
+        <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
           Kandy Highlights
         </h1>
-        <div className="flex flex-row gap-[30px]">
-          <Image src={Image1} alt="item1" className="" />
-          <Image src={image2} alt="item1" className="" />
-          <Image src={image3} alt="item1" className="" />
+        <div className="flex flex-col md:flex-row gap-[30px]">
+          <Image src={Image1} alt="item1" className="w-full md:"  />
+          <Image src={image2} alt="item1" className="w-full md:"  />
+          <Image src={image3} alt="item1" className="w-full md:"  />
         </div>
       </div>
 
       {/* ----------------day 03------------ */}
       <div className="flex flex-col justify-start items-left mt-[30px] ">
-        <div className="flex flex-row gap-[30px] items-center">
-          <Image src={image9} alt="item1" className="" />
-          <h1 className="text-[44px] font-bold font-[volkhov] text-left">
+        <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px]" />
+          <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 03 -<span className="text-[#077B83]">Ella</span>
           </h1>
         </div>
-        <div className="font-[700] text-[20px] leading-[28px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-row gap-[50px] mt-[40px] pl-[70px]">
-          <div className="flex flex-row gap-[60px] w-[570px] font-[400] text-[20px] leading-[32px]">
-            <div className="flex flex-col gap-[50px]">
+        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[70px]">
+          <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
+            <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
                 Ella is a small town in the Badulla district of Sri Lanka. It is
                 located in the hilly region of the country, surrounded by lush
@@ -362,16 +362,16 @@ const ItinaryDetails4NContent = () => {
                 nature, adventure, and tranquility.
               </p>
 
-              <div className="flex flex-col gap-[30px]">
-                <div className="flex flex-row gap-[20px]">
-                  <Image src={iconView} alt="item1" className="" />
+            <div className="flex flex-col md:gap-[30px]">
+                <div className="flex flex-row items-center gap-[20px]">
+                  <Image src={iconView} alt="item1" className="w-[25px] h-[18px] md:w-[45px] md:h-[32px]" />
 
                   <span className="font-semibold">
                     Ella Heritage (4 Star Hotel)
                   </span>
                 </div>
-                <div className="flex flex-row gap-[20px]">
-                  <Image src={iconViewOne} alt="item1" className="" />
+               <div className="flex flex-row  items-center gap-[20px]">
+                  <Image src={iconViewOne} alt="item1" className="w-[24px] h-[20px] md:w-[43px] md:h-[36px]" />
 
                   <span className="font-semibold">Half Board Basis</span>
                 </div>
@@ -389,19 +389,19 @@ const ItinaryDetails4NContent = () => {
       </div>
 
       <div>
-        <div className="flex flex-col gap-[40px] pl-[70px]">
-          <h1 className="text-[36px] font-bold font-[volkhov] text-left">
+         <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]">
+          <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
             Activities
           </h1>
-          <div className="flex flex-col gap-[30px]">
+          <div className="flex flex-col md:gap-[30px]">
             <div className="flex flex-row gap-[20px] ">
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Visit the Nine Arch Bridge: This beautiful bridge is an iconic
                 landmark in Ella and offers great photo opportunities.
               </span>
@@ -410,10 +410,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Explore Ravana Ella Falls: This waterfall is located just
                 outside of Ella and is a popular spot for swimming and
                 picnicking.
@@ -423,10 +423,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Visit Little Adam’s Peak: This is a small hill that is easy to
                 climb and offers beautiful views of the surrounding countryside.
               </span>
@@ -435,10 +435,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Walk through Ella Town: Ella Town has a unique charm, with its
                 quaint shops, cafes, and restaurants.
               </span>
@@ -447,10 +447,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Ride a zip-line tour.
               </span>
             </div>
@@ -458,10 +458,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 On the way going for a wild safari at Udawalawa.
               </span>
             </div>
@@ -469,32 +469,32 @@ const ItinaryDetails4NContent = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-[40px] pl-[70px]">
-        <h1 className="text-[36px] font-bold font-[volkhov] text-left">
+     <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]">
+        <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
           Ella Highlights
         </h1>
-        <div className="flex flex-row gap-[30px]">
-          <Image src={Ella2} alt="item1" className="" />
-          <Image src={Ella3} alt="item1" className="" />
-          <Image src={Ella4} alt="item1" className="" />
-          <Image src={Ella5} alt="item1" className="" />
+        <div className="flex flex-col md:flex-row gap-[30px]">
+          <Image src={Ella2} alt="item1" className="w-full md:" />
+          <Image src={Ella3} alt="item1" className="w-full md:" />
+          <Image src={Ella4} alt="item1" className="w-full md:" />
+          <Image src={Ella5} alt="item1" className="w-full md:" />
         </div>
       </div>
 
       {/* --------------------day04---------------------- */}
       <div className="flex flex-col justify-start items-left mt-[30px] ">
-        <div className="flex flex-row gap-[30px] items-center">
-          <Image src={image9} alt="item1" className="" />
-          <h1 className="text-[44px] font-bold font-[volkhov] text-left">
+        <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px]" />
+          <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 04 - <span className="text-[#077B83]"> Mirissa</span>
           </h1>
         </div>
-        <div className="font-[700] text-[20px] leading-[28px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-row gap-[50px] mt-[40px] pl-[70px]">
-          <div className="flex flex-row gap-[60px] w-[570px] font-[400] text-[20px] leading-[32px]">
-            <div className="flex flex-col gap-[50px]">
+        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[70px]">
+          <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
+            <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
                 Mirissa is a coastal town located in the southern part of Sri
                 Lanka. It is known for its stunning beaches, serene environment,
@@ -510,16 +510,16 @@ const ItinaryDetails4NContent = () => {
                 Unawatuna Beach.
               </p>
 
-              <div className="flex flex-col gap-[30px]">
-                <div className="flex flex-row gap-[20px]">
-                  <Image src={iconView} alt="item1" className="" />
+            <div className="flex flex-col md:gap-[30px]">
+                <div className="flex flex-row items-center gap-[20px]">
+                  <Image src={iconView} alt="item1" className="w-[25px] h-[18px] md:w-[45px] md:h-[32px]" />
 
                   <span className="font-semibold">
                     Mandara Resort Mirissa (5 Star Hotel)
                   </span>
                 </div>
-                <div className="flex flex-row gap-[20px]">
-                  <Image src={iconViewOne} alt="item1" className="" />
+               <div className="flex flex-row  items-center gap-[20px]">
+                  <Image src={iconViewOne} alt="item1" className="w-[24px] h-[20px] md:w-[43px] md:h-[36px]" />
 
                   <span className="font-semibold">Half Board Basis</span>
                 </div>
@@ -537,19 +537,19 @@ const ItinaryDetails4NContent = () => {
       </div>
 
       <div>
-        <div className="flex flex-col gap-[40px] pl-[70px]">
-          <h1 className="text-[36px] font-bold font-[volkhov] text-left">
+         <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]">
+          <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
             Activities
           </h1>
-          <div className="flex flex-col gap-[30px]">
+          <div className="flex flex-col md:gap-[30px]">
             <div className="flex flex-row gap-[20px] ">
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Whale Watching: Mirissa is known for its whale watching
                 experience, with its location along the migration route of blue
                 whales and dolphins. The season runs from November to April.
@@ -559,10 +559,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Surfing: Mirissa is a great spot for surfing, with waves
                 suitable for beginners and advanced surfers. There are several
                 surf schools in the area that offer lessons and equipment
@@ -573,10 +573,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Beach hopping - Mirissa has several beautiful beaches, including
                 Mirissa Beach, Weligama Beach, and Polhena Beach. Take some time
                 to explore them all!
@@ -587,10 +587,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Seafood: Mirissa is famous for its seafood, especially fresh
                 fish caught by local fishermen. The restaurants in the area have
                 an extensive menu of seafood.
@@ -600,10 +600,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Yoga: There are several yoga studios in Mirissa offering classes
                 for all levels. You can practice yoga while enjoying the ocean
                 view.
@@ -613,10 +613,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Ayurveda: Mirissa has many Ayurvedic spas where you can relax
                 and rejuvenate with traditional Ayurvedic treatments.
               </span>
@@ -625,10 +625,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Nightlife: Mirissa has a vibrant nightlife scene, with beach
                 parties, live music, and bars.
               </span>
@@ -637,10 +637,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Galle Fort: Galle Fort is a UNESCO World Heritage Site located
                 about 40 minutes from Mirissa. It is a must-visit for history
                 buffs and has a great shopping scene.( On the way to Airport)
@@ -650,10 +650,10 @@ const ItinaryDetails4NContent = () => {
               <Image
                 src={bulletiocn}
                 alt="item1"
-                className="w-[25px] h-[25px]"
+                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
               />
 
-              <span className="w-[1200px] font-[400] text-[20px] leading-[32px]">
+              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
                 Turtle Conservation: You can visit the turtle conservation
                 center in Habaraduwa, which is close to Mirissa. You can learn
                 about the conservation efforts and even participate in releasing
@@ -664,20 +664,20 @@ const ItinaryDetails4NContent = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-[40px] pl-[70px]">
-        <h1 className="text-[36px] font-bold font-[volkhov] text-left">
+     <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]">
+        <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
           Mirissa Highlights
         </h1>
-        <div className="flex flex-row gap-[30px]">
-          <Image src={Mirissa2} alt="item1" className="" />
-          <Image src={Mirissa3} alt="item1" className="" />
-          <Image src={Mirissa4} alt="item1" className="" />
-          <Image src={Mirissa5} alt="item1" className="" />
+        <div className="flex flex-col md:flex-row gap-[30px]">
+          <Image src={Mirissa2} alt="item1" className="w-full md:" />
+          <Image src={Mirissa3} alt="item1" className="w-full md:" />
+          <Image src={Mirissa4} alt="item1" className="w-full md:" />
+          <Image src={Mirissa5} alt="item1" className="w-full md:" />
         </div>
       </div>
-      <div className="flex flex-row gap-[30px] items-center">
-        <Image src={image9} alt="item1" className="" />
-        <h1 className="text-[44px] font-bold font-[volkhov] text-left">End</h1>
+      <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
+          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px]"  />
+          <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">End</h1>
       </div>
     </div>
   );

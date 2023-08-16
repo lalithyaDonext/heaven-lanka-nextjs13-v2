@@ -27,15 +27,14 @@ const TourSingleViewContent7N = () => {
         <TourPageMap7N />
       </div>
 
-      <div className="container mx-auto px-20 mt-[40px] flex flex-col justify-center items-center pb-[60px]"></div>
-      <div className="container mx-auto px-40 mt-[200px]">
-        <div className="flex  justify-end">
-          <nav className="flex flex-row">
-            <div className="w-[650px] border-b-[2px] border-[black] "></div>
+      <div className="container md:mx-auto md:px-40 mt-10 md:mt-[200px]">
+        <div className="flex items-center justify-center ">
+          <nav className="flex flex-row justify-end ">
+            <div className="w-[200px]  2xl:w-[650px] md:w-[400px] sm:w-[300px] border-b-[2px] border-[black] "></div>
             <button
               type="button"
-              className={`w-[286px] h-[65px] text-[32px] text-[black] font-[volkhov] font-[400] border-b-[2px] border-[black]  ${
-                activeTab === 1 ? "active   border-[2px] border-[black]  border-b-[0px] border-b-[white] rounded-t-[30px] " : ""
+              className={`w-[80px]  2xl:w-[286px] 2xl:h-[65px]  2xl:text-[32px] md:w-[180px] md:h-[45px]  md:text-[24px] text-[black] font-[volkhov] font-[400] border-b-[2px] border-[black]  ${
+                activeTab === 1 ? "active   border-[2px] border-[black]  border-b-[0px] border-b-[white] md:rounded-t-[30px] rounded-t-[10px]" : ""
               }`}
               id="card-type-tab-item-1"
               data-hs-tab="#card-type-tab-1"
@@ -47,8 +46,8 @@ const TourSingleViewContent7N = () => {
             </button>
             <button
               type="button"
-              className={`w-[286px] h-[65px] text-[32px] text-[black] font-[volkhov] font-[400] border-b-[2px] border-[black] ${
-                activeTab === 2 ? "active border-[2px] border-[black] border-b-[0px] border-b-[white] rounded-t-[30px] " : ""
+              className={`w-[80px] h-[40px] 2xl:w-[286px] 2xl:h-[65px]  2xl:text-[32px] md:w-[180px] md:h-[45px]  md:text-[24px] text-[black] font-[volkhov] font-[400] border-b-[2px] border-[black] ${
+                activeTab === 2 ? "active border-[2px] border-[black] border-b-[0px] border-b-[white] md:rounded-t-[30px] rounded-t-[10px] " : ""
               }`}
               id="card-type-tab-item-2"
               data-hs-tab="#card-type-tab-2"
@@ -81,16 +80,16 @@ const TourSingleViewContent7N = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-20 mt-[60px]  ml-[280px]  w-[1900px] pt-[20px] pb-[280px]">
+      {/* <div className="container mx-auto px-20 mt-[60px]  ml-[280px]  w-[1900px] pt-[20px] pb-[280px]">
         <QuoteForm/>
-      </div>
+      </div> */}
 
-      <div className="container mx-auto  px-20 absolute -mt-[220px] ml-[180px] flex flex-col justify-center items-center">
+<div className="container mx-auto px-4 md:px-20 mt-8">
         <SubscriptionCard />
       </div>
 
-      <div className="mt-[0px] pt-[250px] pb-[60px] pl-[150px] pr-[150px] bg-[#077B83] bg-opacity-[10%]">
-        <div className="container mx-auto px-60">
+      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-100px]">
+        <div className="container mx-auto px-4 md:px-20 py-8 md:pt-[160px]">
           <FooterView />
         </div>
       </div>

@@ -468,156 +468,6 @@ const ItinaryDetails6NContent = () => {
       <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
           <Image src={image9} alt="item1" className="w-[20px] md:w-[47px]"  />
           <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
-            Day 05 -<span className="text-[#077B83]">Ella</span>
-          </h1>
-        </div>
-        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
-          (1 Night)
-        </div>
-        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[70px]">
-          <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
-            <div className="flex flex-col gap-[20px] md:gap-[50px]">
-              <p>
-                Ella is a small town in the Badulla district of Sri Lanka. It is
-                located in the hilly region of the country, surrounded by lush
-                green forests and tea plantations. The town is known for its
-                scenic beauty, with many visitors attracted to its stunning
-                views of the surrounding countryside, waterfalls, and hiking
-                trails. Ella is also famous for its iconic Nine Arch Bridge,
-                which spans across a deep ravine and is a popular tourist spot.
-                The town has a laid-back and relaxed vibe, with many cafes and
-                restaurants serving local delicacies and international cuisine.
-                Overall, Ella is a must-visit destination for those who love
-                nature, adventure, and tranquility.
-              </p>
-
-              <div className="flex flex-col md:gap-[30px]">
-                <div className="flex flex-row items-center gap-[20px]">
-                  <Image src={iconView} alt="item1" className="w-[25px] h-[18px] md:w-[45px] md:h-[32px]" />
-
-                  <span className="font-semibold">
-                    Ella Heritage (4 Star Hotel)
-                  </span>
-                </div>
-                <div className="flex flex-row  items-center gap-[20px]">
-                  <Image src={iconViewOne} alt="item1" className="w-[24px] h-[20px] md:w-[43px] md:h-[36px]" />
-
-                  <span className="font-semibold">Half Board Basis</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <Image
-              src={Ella1}
-              alt="item1"
-              className="object-cover w-full h-full rounded-[20px]"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div>
-      <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]">
-        <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
-            Activities
-          </h1>
-          <div className="flex flex-col md:gap-[30px]">
-          <div className="flex flex-row gap-[20px] ">
-              <Image
-                src={bulletiocn}
-                alt="item1"
-                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
-              />
-
-              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
-                Visit the Nine Arch Bridge: This beautiful bridge is an iconic
-                landmark in Ella and offers great photo opportunities.
-              </span>
-            </div>
-            <div className="flex flex-row gap-[20px] ">
-              <Image
-                src={bulletiocn}
-                alt="item1"
-                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
-              />
-
-              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
-                Explore Ravana Ella Falls: This waterfall is located just
-                outside of Ella and is a popular spot for swimming and
-                picnicking.
-              </span>
-            </div>
-            <div className="flex flex-row gap-[20px] ">
-              <Image
-                src={bulletiocn}
-                alt="item1"
-                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
-              />
-
-              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
-                Visit Little Adam’s Peak: This is a small hill that is easy to
-                climb and offers beautiful views of the surrounding countryside.
-              </span>
-            </div>
-            <div className="flex flex-row gap-[20px] ">
-              <Image
-                src={bulletiocn}
-                alt="item1"
-                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
-              />
-
-              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
-                Walk through Ella Town: Ella Town has a unique charm, with its
-                quaint shops, cafes, and restaurants.
-              </span>
-            </div>
-            <div className="flex flex-row gap-[20px] ">
-              <Image
-                src={bulletiocn}
-                alt="item1"
-                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
-              />
-
-              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
-                Ride a zip-line tour.
-              </span>
-            </div>
-            <div className="flex flex-row gap-[20px] ">
-              <Image
-                src={bulletiocn}
-                alt="item1"
-                className="w-[20px] h-[20px] md:w-[25px] md:h-[25px]"
-              />
-
-              <span className="w-[1200px] font-[400] md:text-[20px] md:leading-[32px] text-[18px] leading-[30px]">
-                On the way going for a wild safari at Udawalawa.
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]">
-        <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
-          Ella Highlights
-        </h1>
-        <div className="flex flex-col md:flex-row gap-[30px]">
-          <Image src={Ella2} alt="item1" className="w-full" />
-          <Image src={Ella3} alt="item1" className="w-full" />
-          <Image src={Ella4} alt="item1" className="w-full" />
-          <Image src={Ella5} alt="item1" className="w-full" />
-        </div>
-      </div>
-
-
-
-
-      {/* ---------------day 04-------- */}
-      <div className="flex flex-col justify-start items-left mt-[30px] ">
-      <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
-          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px]"  />
-          <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 04 -<span className="text-[#077B83]">Ella</span>
           </h1>
         </div>
@@ -759,6 +609,9 @@ const ItinaryDetails6NContent = () => {
           <Image src={Ella5} alt="item1" className="w-full" />
         </div>
       </div>
+
+
+
 
 
       {/* --------------------day05---------------------- */}
