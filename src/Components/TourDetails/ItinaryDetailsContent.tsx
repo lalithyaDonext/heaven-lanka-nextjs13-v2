@@ -20,10 +20,10 @@ import image14 from "../../../assets/Tour/tharoushan-kandarajah-p743KeSLQPI-unsp
 
 const ItinaryDetailsContent = () => {
   return (
-    <div className="flex flex-col gap-[90px] justify-start  mt-[100PX]">
-     <div className="flex flex-col justify-start items-left">
+    <div className="flex flex-col  justify-start  mt-[100PX]">
+     <div className="flex flex-col justify-start items-left  border-dashed border-l-[3px] border-[#077B83] ">
         <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
-          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px]"  />
+        <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] md:ml-[-23px] "  />
           <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 01 - <span className="text-[#077B83]"> Kandy</span>
           </h1>
@@ -73,8 +73,8 @@ const ItinaryDetailsContent = () => {
         </div>
       </div>
       <div>
-      <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]">
-        <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
+      <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83]">
+        <h1 className="mt-[90px]  md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
             Activities
           </h1>
           <div className="flex flex-col md:gap-[30px]">
@@ -158,8 +158,8 @@ const ItinaryDetailsContent = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]">
-        <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
+      <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83]">
+        <h1 className="mt-[90px] md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
           Kandy Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
@@ -170,9 +170,9 @@ const ItinaryDetailsContent = () => {
       </div>
 
 
-      <div className="flex flex-col justify-start items-left mt-[30px] ">
-      <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
-          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px]" />
+      <div className="flex flex-col justify-start items-left   border-dashed border-l-[3px] border-[#077B83] ">
+      <div className="flex flex-row gap-[10px] mt-[90px] md:gap-[30px] items-center md:justify-start justify-center">
+      <Image src={image9} alt="item1" className="w-[20px] md:w-[47px] md:ml-[-23px] "  />
           <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">
             Day 02 - <span className="text-[#077B83]"> Colombo</span>
           </h1>
@@ -216,8 +216,8 @@ const ItinaryDetailsContent = () => {
         </div>
       </div>
       <div>
-      <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]">
-          <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
+      <div className="flex flex-col gap-[40px] px-[20px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83]">
+          <h1 className="md:text-[36px] mt-[90px] text-[24px] font-bold font-[volkhov] text-left">
             Activities
           </h1>
           <div className="flex flex-col md:gap-[30px]">
@@ -263,8 +263,8 @@ const ItinaryDetailsContent = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]">
-        <h1 className="md:text-[36px] text-[24px] font-bold font-[volkhov] text-left">
+      <div className="flex flex-col items-center px-[20px] gap-[40px] md:pl-[70px]  border-dashed border-l-[3px] border-[#077B83]">
+        <h1 className="md:text-[36px] mt-[90px] text-[24px] font-bold font-[volkhov] text-left">
           Colombo Highlights
         </h1>
         <div className="flex flex-col md:flex-row gap-[30px]">
@@ -274,9 +274,9 @@ const ItinaryDetailsContent = () => {
           <Image src={image14} alt="item1" className="w-[355px]" />
         </div>
       </div>
-      <div className="flex flex-row gap-[10px] md:gap-[30px] items-center md:justify-start justify-center">
-          <Image src={image9} alt="item1" className="w-[20px] md:w-[47px]"  />
-          <h1 className="md:text-[44px] md:w-full text-[20px] font-bold font-[volkhov] text-left">End</h1>
+      <div className="flex flex-row gap-[10px]  md:gap-[30px]  border-dashed border-l-[3px] border-[#077B83] items-center md:justify-start justify-center ">
+          <Image src={image9} alt="item1" className="w-[20px] mt-[50px] md:w-[47px] md:ml-[-23px] md:mt-[90px] "  />
+          <h1 className="md:text-[44px] mt-[50px] md:mt-[90px] md:w-full text-[20px] font-bold font-[volkhov] text-left">End</h1>
       </div>
     </div>
   );

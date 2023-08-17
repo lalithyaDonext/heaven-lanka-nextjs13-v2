@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AdventureCard = ({adventure}:any) => {
     return ( 
-        <div>
+        <div className="flex flex-col items-center">
         <div className='h-[60px] w-[60px] md:h-[160px] md:w-[160px]   space-y-2 shadow-lg flex flex-col items-center justify-center bg-[#077B83] rounded-md  my-2'>
             <div className="h-[40px] md:h-[80px] w-full ">
                 <Image
@@ -20,7 +20,7 @@ const AdventureCard = ({adventure}:any) => {
             </div>
            
         </div>
-         <h1 className='hidden md:text-[#077B83] md:text-sm md:w-[120px] md:-[70px] text-center md:ml-5 mt-2 font-bold'>{adventure.name}</h1>
+         <h1 className='text-[8px] h-[30px] md:h-[70px] text-[#077B83] md:text-sm md:w-[120px] md:-[70px] text-center md:ml-5 mt-2 font-bold'>{adventure.name}</h1>
          </div>
      );
 }

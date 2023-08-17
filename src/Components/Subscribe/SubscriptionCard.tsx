@@ -11,7 +11,7 @@ const SubscriptionCard = () => {
           <Image src={Bg} alt="item1" className="object-cover w-full h-full" />
         </div>
         <div className=" ">
-          <h1 className="text-2xl md:text-4xl font-bold text-[#ffffff] leading-[1.5] ">
+          <h1 className="text-2xl text-center md:text-4xl font-bold text-[#ffffff] leading-[1.5] ">
             Subscribe and get exclusive deals & offers
           </h1>
         </div>

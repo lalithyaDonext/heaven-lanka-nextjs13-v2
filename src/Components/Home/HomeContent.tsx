@@ -146,7 +146,7 @@ const HomeContent = () => {
         <QuotesCard />
       </div>
 
-      <div className="container mx-auto px-4 md:px-20 mt-8">
+      <div className="container mx-auto px-4 md:px-20 mt-8  md:mt-28 " >
         <div className="text-center space-y-4">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov]">
             Why <span className="text-[#077B83]">Heaven Lanka</span>
@@ -158,11 +158,11 @@ const HomeContent = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 md:px-20 mt-8">
+      <div className="container mx-auto px-4 md:px-20 mt-8  ">
         <DetailsList />
       </div>
 
-      <div className="container mx-auto px-4 md:px-20 mt-8">
+      <div className="container mx-auto px-4 md:px-20 mt-8  md:mt-28">
         <div className="text-center space-y-4">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov]">
             <span className="text-[#077B83]">Best</span> vacation plans
@@ -182,7 +182,7 @@ const HomeContent = () => {
         <VaccationList />
       </div>
 
-      <div className="container mx-auto px-4 md:px-20 mt-8">
+      <div className="container mx-auto px-4 md:px-20 mt-8  md:mt-28">
         <div className="text-center space-y-4">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov]">
             <span className="text-[#077B83]">Sri Lanka&apos;s</span> Treasures
@@ -223,7 +223,7 @@ const HomeContent = () => {
         </div>
       </div> */}
 
-      <div className="bg-[#077B83] bg-opacity-10">
+      <div className="bg-[#077B83] bg-opacity-10 mt-8  md:mt-28">
         <div className="container mx-auto  md:px-80 px-8 py-8 flex flex-col md:flex-row items-center">
           {/* <div className="md:left-0 md:mr-8">
       <Image src={Bg} alt="item1" className="w-full" />
@@ -244,7 +244,7 @@ const HomeContent = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 md:px-20 mt-8">
+      <div className="container mx-auto px-4 md:px-20 mt-8  md:mt-28">
         <div className="text-center space-y-4">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov]">
             How It Works -{" "}
@@ -262,12 +262,12 @@ const HomeContent = () => {
         <AdventureList />
       </div>
 
-      <div className="container mx-auto px-4 md:px-20 mt-8">
+      <div className="container mx-auto px-4 md:px-20 mt-8  md:mt-28">
         <SubscriptionCard />
       </div>
 
-      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-100px]">
-        <div className="container mx-auto px-4 md:px-20 py-8 md:pt-[160px]">
+      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-120px] mt-[-150px]">
+        <div className="container mx-auto px-4 md:px-20 py-8 md:pt-[180px] pt-[200px]">
           <FooterView />
         </div>
       </div>

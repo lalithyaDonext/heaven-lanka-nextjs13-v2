@@ -30,7 +30,7 @@ const AdventureList = () => {
         <>
           <AdventureCard key={index} adventure={item} />
           {index !== adventure1.length - 1 && (
-            <FiChevronRight className="text-[#077B83] md:h-8 md:w-8 h-4 w-4" />
+            <FiChevronRight className="text-[#077B83] md:h-8 md:w-8 h-5 w-5 md:mt-[-60px] mt-[-30px]" />
           )}
         </>
       ))}
