@@ -80,7 +80,7 @@ const TermsContent = () => {
 
           <p className="mt-4 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             For specific packages, additional charges may apply as mentioned in
-            the paragraph "Amendments and Cancellation by Clients." Unredeemed
+            the paragraph &apos;&apos;Amendments and Cancellation by Clients.&apos;&apos; Unredeemed
             vouchers can be canceled within the validity period with a
             cancellation fee. Crazy Deal Vouchers are valid for six months, and
             unused vouchers cannot be utilized or refunded after the expiration
@@ -169,7 +169,7 @@ const TermsContent = () => {
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Heaven Lanka acts as the Tour Operator on behalf of suppliers and
             accepts no liability for any loss, damage, injury, accident, delay,
-            or irregularity arising from travel. Heaven Lanka's products may
+            or irregularity arising from travel. Heaven Lanka&apos;s products may
             contain an element of risk, and clients undertake such risks
             voluntarily. We accept no liability for damages where we have
             provided products of a reasonable standard.
@@ -185,7 +185,7 @@ const TermsContent = () => {
             Heaven Lanka will not be liable for any delays due to technical
             difficulties, strikes, weather conditions, or circumstances beyond
             our control. Any expenses relating to unscheduled extensions will be
-            the client's responsibility.
+            the client&apos;s responsibility.
           </p>
         </div>
       </div>
@@ -228,7 +228,7 @@ const TermsContent = () => {
         <div className=" md:ml-[50px] md:w-[1074px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Clients agree to accept the authority and decisions of Heaven Lanka
-            and its suppliers' employees and representatives. Clients may be
+            and its suppliers&apos; employees and representatives. Clients may be
             excluded from the tour if their health or conduct endangers the safe
             and comfortable progress of the tour.
           </p>
@@ -243,11 +243,11 @@ const TermsContent = () => {
             Clients must raise any complaints immediately with Heaven Lanka,
             allowing us to rectify the problem. Failure to complain immediately
             may reduce our liability to pay compensation. However, we will make
-            every effort to resolve complaints to the customer's satisfaction.
+            every effort to resolve complaints to the customer&apos;s satisfaction.
           </p>
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Please note that the above terms and conditions are subject to
-            change, and it is the client's responsibility to stay updated with
+            change, and it is the client&apos;s responsibility to stay updated with
             any modifications. Should you have any questions or concerns, please
             do not hesitate to contact us.
           </p>
