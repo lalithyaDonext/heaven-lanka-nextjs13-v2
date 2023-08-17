@@ -84,8 +84,10 @@
 import Image from "next/image";
 import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
 import logo from ".././../../assets/Logo/logo1.png";
+import { useRouter } from 'next/navigation';
 
 const FooterView = () => {
+  const router = useRouter();
   return (
     <div className="pb-[40px]">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-5">
@@ -116,7 +118,9 @@ const FooterView = () => {
           <div className="mt-[20px]">About</div>
           <div className="mt-[20px]">Career</div>
           <div className="mt-[20px]">Logistic</div>
-          <div className="mt-[20px]">Privacy & Policy</div>
+          <div className="mt-[20px] cursor-pointer"
+          onClick={() => router.push('./privacyPage')}
+          >Privacy & Policy</div>
         </div>
 
         <div className="col-span-1 md:col-span-1 text-center md:text-sm">
@@ -144,7 +148,9 @@ const FooterView = () => {
         <div className="font-normal text-[#222222] mt-[20px] md:mt-[25px] leading-[26px] text-[12px] text-center md:text-left">
           Copyright, Heaven Lanka 2023. All rights reserved.
         </div>
-        <div className="font-normal text-[#222222] mt-[20px] md:mt-[25px] leading-[26px] text-[12px] text-center md:text-right">
+        <div className="font-normal text-[#222222] mt-[20px] md:mt-[25px] leading-[26px] text-[12px] text-center md:text-right cursor-pointer"
+        onClick={() => router.push('./termsPage')}
+        >
           Terms & Conditions
         </div>
       </div>
