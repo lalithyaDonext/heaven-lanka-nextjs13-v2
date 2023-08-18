@@ -21,7 +21,7 @@ const ComingSoonPage = () => {
           Coming Soon!
         </h1>
         <h5 className="text-[14px] w-[300px] md:w-[400px] xl:w-[500px] 2xl:w-[600px] md:text-lg lg:text-base xl:text-lg 2xl:text-xl font-normal text-white mt-4 xl:mt-[20px] 2xl:mt-[30px] 3xl:mt-[60px] md:mt-2 max-w-md md:max-w-2xl drop-shadow-2xl">
-          We're working on something amazing. Stay tuned for updates!
+          We&apos;re working on something amazing. Stay tuned for updates!
         </h5>
       </div>
     </div>
