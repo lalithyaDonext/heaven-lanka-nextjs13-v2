@@ -99,46 +99,46 @@ const FooterView = () => {
             Book your trip in minute, get full Control for much longer.
           </div>
           <div className="flex justify-center md:justify-start mt-[20px] space-x-5">
-            <div className="w-[40px] h-[40px] rounded-full bg-[#FFFFFF] flex justify-center items-center">
+            <div className=" w-[40px] h-[40px] rounded-full bg-[#FFFFFF] flex justify-center cursor-pointer items-center">
               <FaFacebookF className="text-[#E9B4A5]" />
             </div>
-            <div className="w-[40px] h-[40px] rounded-full bg-[#FA7436] flex justify-center items-center">
+            <div className="w-[40px] h-[40px] rounded-full bg-[#FA7436] flex justify-center cursor-pointer items-center">
               <FaInstagram className="text-[#FFFFFF]" />
             </div>
-            <div className="w-[40px] h-[40px] rounded-full bg-[#FFFFFF] flex justify-center items-center">
+            <div className="w-[40px] h-[40px] rounded-full bg-[#FFFFFF] flex justify-center cursor-pointer items-center">
               <FaTwitter className="text-[#E9B4A5]" />
             </div>
           </div>
         </div>
 
-        <div className="col-span-1 md:col-span-1 text-center md:text-sm">
+        <div className="col-span-1 md:col-span-1 text-left md:text-sm">
           <div className="font-semibold text-[#077B83] mt-[20px] md:mt-[25px] leading-[26px]">
             Company
           </div>
-          <div className="mt-[20px]">About</div>
-          <div className="mt-[20px]">Career</div>
-          <div className="mt-[20px]">Logistic</div>
+          <div className="mt-[20px] cursor-pointer">About</div>
+          <div className="mt-[20px]  cursor-pointer">Career</div>
+          <div className="mt-[20px] cursor-pointer">Logistic</div>
           <div className="mt-[20px] cursor-pointer"
           onClick={() => router.push('./privacyPage')}
           >Privacy & Policy</div>
         </div>
 
-        <div className="col-span-1 md:col-span-1 text-center md:text-sm">
+        <div className="col-span-1 md:col-span-1 text-left md:text-sm">
           <div className="font-semibold text-[#077B83] mt-[20px] md:mt-[25px] leading-[26px]">
             Contact
           </div>
-          <div className="mt-[20px]">Help/FAQ</div>
-          <div className="mt-[20px]">Press</div>
-          <div className="mt-[20px]">Affilates</div>
+          <div className="mt-[20px] cursor-pointer">Help/FAQ</div>
+          <div className="mt-[20px] cursor-pointer">Press</div>
+          <div className="mt-[20px] cursor-pointer">Affilates</div>
         </div>
 
-        <div className="col-span-1 md:col-span-1 text-center md:text-sm">
+        <div className="col-span-1 md:col-span-1 text-left md:text-sm">
           <div className="font-semibold text-[#077B83] mt-[20px] md:mt-[25px] leading-[26px]">
             More
           </div>
-          <div className="mt-[20px]">Press Centre</div>
-          <div className="mt-[20px]">Our Blog</div>
-          <div className="mt-[20px]">Low fare tips</div>
+          <div className="mt-[20px] cursor-pointer">Press Centre</div>
+          <div className="mt-[20px] cursor-pointer">Our Blog</div>
+          <div className="mt-[20px] cursor-pointer">Low fare tips</div>
         </div>
       </div>
       <div className="mt-[20px] border border-[1px] bg-[#999999] bg-opacity-[56%]">

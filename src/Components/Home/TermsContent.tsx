@@ -33,7 +33,7 @@ const TermsContent = () => {
             recommend submitting a copy of your passport when providing your
             preferred travel dates for your vacation. Payment and Pricing Policy
           </p>
-          <p className="mt-4 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
+          <p className="mt-4 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222] ">
             Your reservation request will be confirmed upon receipt of the full
             payment due at the time of booking. While every effort will be made
             to confirm your request, please note that travel arrangements are

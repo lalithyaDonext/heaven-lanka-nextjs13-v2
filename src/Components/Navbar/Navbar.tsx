@@ -205,7 +205,7 @@ const Navbar = () => {
                 className={`text-white ${selected === 4 ? "font-bold" : ""}`}
                 onClick={() => {
                   handleChange(4);
-                  router.push("/testimonials");
+                  router.push("/comingSoonPage");
                 }}
               >
                 Testimonials
@@ -214,7 +214,7 @@ const Navbar = () => {
                 className={`text-white ${selected === 5 ? "font-bold" : ""}`}
                 onClick={() => {
                   handleChange(5);
-                  router.push("/contact");
+                  router.push("/comingSoonPage");
                 }}
               >
                 Contact
@@ -223,7 +223,7 @@ const Navbar = () => {
                 className={`text-white ${selected === 6 ? "font-bold" : ""}`}
                 onClick={() => {
                   handleChange(6);
-                  router.push("/explore");
+                  router.push("/comingSoonPage");
                 }}
               >
                 Explore
@@ -276,7 +276,7 @@ const Navbar = () => {
             }`}
             onClick={() => {
               handleChange(4);
-              router.push("/testimonials");
+              router.push("/comingSoonPage");
             }}
           >
             Testimonials
@@ -287,7 +287,7 @@ const Navbar = () => {
             }`}
             onClick={() => {
               handleChange(5);
-              router.push("/contact");
+              router.push("/comingSoonPage");
             }}
           >
             Contact
@@ -298,7 +298,7 @@ const Navbar = () => {
             }`}
             onClick={() => {
               handleChange(6);
-              router.push("/explore");
+              router.push("/comingSoonPage");
             }}
           >
             Explore
