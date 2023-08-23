@@ -111,7 +111,7 @@ const FooterView = () => {
           </div>
         </div>
 
-        <div className="col-span-1 md:col-span-1 text-left md:text-sm">
+        <div className="col-span-1 md:col-span-1 text-center md:text-sm">
           <div className="font-semibold text-[#077B83] mt-[20px] md:mt-[25px] leading-[26px]">
             Company
           </div>
@@ -123,7 +123,7 @@ const FooterView = () => {
           >Privacy & Policy</div>
         </div>
 
-        <div className="col-span-1 md:col-span-1 text-left md:text-sm">
+        <div className="col-span-1 md:col-span-1 text-center md:text-sm">
           <div className="font-semibold text-[#077B83] mt-[20px] md:mt-[25px] leading-[26px]">
             Contact
           </div>
@@ -132,7 +132,7 @@ const FooterView = () => {
           <div className="mt-[20px] cursor-pointer">Affilates</div>
         </div>
 
-        <div className="col-span-1 md:col-span-1 text-left md:text-sm">
+        <div className="col-span-1 md:col-span-1 text-center md:text-sm">
           <div className="font-semibold text-[#077B83] mt-[20px] md:mt-[25px] leading-[26px]">
             More
           </div>
