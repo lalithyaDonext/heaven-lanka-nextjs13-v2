@@ -8,11 +8,11 @@ const DurationInput = () => {
           id="guests"
           className="w-full md:w-[150px] bg-transparent h-10 rounded-md border border-gray-300 bg-opacity-0 text-sm cursor-pointer text-black md:text-white pl-3"
         >
-          <option value="1"> 1 </option>
-          <option value="2"> 2 </option>
-          <option value="3"> 3 </option>
-          <option value="4"> 4 </option>
-          <option value="5"> 5 </option>
+          <option value="1" className="text-black"> 1 Guest</option>
+          <option value="2" className="text-black"> 2 Guests</option>
+          <option value="3" className="text-black"> 3 Guests</option>
+          <option value="4" className="text-black"> 4 Guests</option>
+          <option value="5" className="text-black"> 5 Guests </option>
         </select>
       </div>
     );
