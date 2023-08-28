@@ -85,12 +85,12 @@ const QuoteForm = () => {
   };
 
   return (
-    <div className="h-auto w-[1170px] space-y-4  flex flex-col items-center bg-[#077B83] bg-opacity-[10%] rounded-[20px] pt-[60px] pl-[60px] pr-[60px] pb-[60px]">
-      <div className=" flex flex-col justify-center items-left   pl-[260px] pb-10">
-        <h1 className="text-[48px] font-bold font-poppins text-left">
+    <div className="w-full md:w-[1170px] mx-auto p-4 md:py-8 flex flex-col justify-center items-center bg-[#077B83] bg-opacity-10 rounded-[20px]">
+      <div className=" flex flex-col justify-center items-center   pb-10">
+        <h1 className="md:text-[48px] text-[32px] font-bold font-poppins flex flex-col justify-center items-center">
           Catch Your Dream:
         </h1>
-        <p className="w-[980px]  text-left text-[20px]">
+        <p className="md:w-[980px] flex flex-col justify-center items-center  text-[20px]">
           Request a Tailored Quote!
         </p>
       </div>
@@ -102,7 +102,7 @@ const QuoteForm = () => {
         {({ values, errors, handleChange, handleSubmit }) => (
           <Form noValidate onSubmit={handleSubmit}>
             <div className="flex flex-col gap-8">
-              <div className="flex flex-row gap-10">
+              <div className="flex flex-col md:flex-row gap-10">
                 <div className="flex flex-col  gap-2">
                   <label className="font-semibold" htmlFor="firstName">
                     First Name:
@@ -139,7 +139,7 @@ const QuoteForm = () => {
                   <ErrorMessage name="lastName" component="div" />
                 </div>
               </div>
-              <div className="flex flex-row gap-10">
+              <div className="flex flex-col md:flex-row gap-10">
                 <div className="flex flex-col  gap-2">
                   <label className="font-semibold" htmlFor="email">
                     Email:
@@ -176,7 +176,7 @@ const QuoteForm = () => {
                   <ErrorMessage name="phoneNumber" component="div" />
                 </div>
               </div>
-              <div className="flex flex-row gap-10">
+              <div className="flex flex-col md:flex-row gap-10">
                 <div className="flex flex-col  gap-2">
                   <label className="font-semibold" htmlFor="email">
                   Arrival Date:
@@ -214,7 +214,7 @@ const QuoteForm = () => {
                     <ErrorMessage name="toDate" component="div" />
                 </div>
               </div>
-              <div className="flex flex-row gap-10 ">
+              <div className="flex flex-col md:flex-row gap-10 ">
               
                 <div className="flex flex-col  gap-2">
                   <label className="font-semibold" htmlFor="guests">
@@ -302,21 +302,21 @@ const QuoteForm = () => {
                   id="specialNote"
                   name="specialNote"
                   style={{
-                    height: "138.25px",
-                    width: "704.48px",
+                    
                     borderRadius: "5px",
                     padding: "5px",
                   }}
+                  className="md:w-[704.48px] w-full md:h-[99.62px] h-[64.05px] "
                 />
                 <ErrorMessage name="specialNote" component="div" />
               </div>
 
               <button
                 type="submit"
-                className="w-[704.48px] h-[99.62px] bg-[#077B83] rounded-[5px] text-[40px] leading-[48px] text-[white] font-bold"
+                className="md:w-[704.48px] w-full md:h-[99.62px] h-[64.05px] bg-[#077B83] rounded-[5px] text-[24px] md:text-[40px] leading-[48px] text-[white] font-bold flex flex-row items-center justify-center"
               >
                 {isLoading ? (
-                  <span className="flex flex-row gap-[30px]">
+                  <span className="flex flex-row gap-[30px] items-center">
                     <FaSpinner className="spin" />
                     Loading..
                   </span>
