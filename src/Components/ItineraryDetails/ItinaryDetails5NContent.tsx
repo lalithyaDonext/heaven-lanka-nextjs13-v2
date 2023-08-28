@@ -41,10 +41,10 @@ const ItinaryDetails5NContent = () => {
             Day 01 - <span className="text-[#077B83]"> Kandy</span>
           </h1>
         </div>
-        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[60px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[70px]">
+        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[60px]">
           <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
             <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
@@ -192,10 +192,10 @@ const ItinaryDetails5NContent = () => {
             Day 02 - <span className="text-[#077B83]"> Nuwara Eliya</span>
           </h1>
         </div>
-        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[60px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[70px]">
+        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[60px]">
           <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
             <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
@@ -318,10 +318,10 @@ const ItinaryDetails5NContent = () => {
             Day 03 - <span className="text-[#077B83]"> Udawalawa</span>
           </h1>
         </div>
-        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
+        <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[60px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[70px]">
+        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[60px]">
           <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
             <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
@@ -476,10 +476,10 @@ const ItinaryDetails5NContent = () => {
             Day 04 - <span className="text-[#077B83]"> Hikkaduwa</span>
           </h1>
         </div>
-         <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
+         <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[60px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[70px]">
+        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[60px]">
           <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
             <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>
@@ -630,10 +630,10 @@ const ItinaryDetails5NContent = () => {
             Day 05 - <span className="text-[#077B83]"> Colombo</span>
           </h1>
         </div>
-         <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[80px] tracking-[-2%] ">
+         <div className="font-[700] md:text-[20px] md:leading-[28px] text-[14px] leading-[18px] text-[#FA7436] ml-[60px] tracking-[-2%] ">
           (1 Night)
         </div>
-        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[70px]">
+        <div className="flex flex-col md:flex-row gap-[50px] mt-[40px] px-[20px] md:pl-[60px]">
           <div className="flex flex-row gap-[60px] w-full md:w-[570px] font-[400] text-[18px] md:text-[20px] leading-[32px]">
             <div className="flex flex-col gap-[20px] md:gap-[50px]">
               <p>

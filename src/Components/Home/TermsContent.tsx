@@ -14,16 +14,16 @@ const TermsContent = () => {
       </div>
 
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[50px] md:mt-[80px] space-y-4">
-        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold font-[volkhov]">
+        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold font-[volkhov] md:ml-[100px]">
           <span className="text-[#077B83]">Terms and </span>Conditions
         </h1>
       </div>
 
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov]">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
           Name Change Amendments
         </h1>
-        <div className=" md:ml-[50px] md:w-[1074px]">
+        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Upon making the booking, it is essential to provide accurate and
             complete names as they appear on your passport. Please note that
@@ -51,10 +51,10 @@ const TermsContent = () => {
       </div>
 
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov]">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
           Cancellation by Clients
         </h1>
-        <div className=" md:ml-[50px] md:w-[1074px]">
+        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Clients wishing to cancel must inform Heaven Lanka in writing,
             signed by the lead passenger on the booking form. Cancellation will
@@ -90,10 +90,10 @@ const TermsContent = () => {
       </div>
 
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov]">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
           Cancellation by Heaven Lanka
         </h1>
-        <div className=" md:ml-[50px] md:w-[1074px]">
+        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Heaven Lanka reserves the right to cancel any confirmed booking in
             any circumstances, except in the unusual circumstances of force
@@ -106,10 +106,10 @@ const TermsContent = () => {
       </div>
 
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov]">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
           Amendments/Changes
         </h1>
-        <div className=" md:ml-[50px] md:w-[1074px]">
+        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Once a booking has been confirmed, any amendments must be advised
             and confirmed at least 72 hours before traveling by the lead
@@ -134,10 +134,10 @@ const TermsContent = () => {
       </div>
 
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov]">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
           Sri Lanka Public/National Holidays
         </h1>
-        <div className=" md:ml-[50px] md:w-[1074px]">
+        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Crazy Deal Vouchers do not apply for travel periods during Sri Lanka
             Public/National Holidays. For travel during public holidays, kindly
@@ -147,10 +147,10 @@ const TermsContent = () => {
       </div>
 
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov]">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
           Inclusions and Exclusions of Package Price
         </h1>
-        <div className=" md:ml-[50px] md:w-[1074px]">
+        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             The price of any holiday booked includes only the specified items.
             It does not include personal expenses or items of a personal nature,
@@ -162,10 +162,10 @@ const TermsContent = () => {
       </div>
 
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov]">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
           Liability of Heaven Lanka
         </h1>
-        <div className=" md:ml-[50px] md:w-[1074px]">
+        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Heaven Lanka acts as the Tour Operator on behalf of suppliers and
             accepts no liability for any loss, damage, injury, accident, delay,
@@ -177,10 +177,10 @@ const TermsContent = () => {
         </div>
       </div>
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov]">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
           Delays
         </h1>
-        <div className=" md:ml-[50px] md:w-[1074px]">
+        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Heaven Lanka will not be liable for any delays due to technical
             difficulties, strikes, weather conditions, or circumstances beyond
@@ -190,10 +190,10 @@ const TermsContent = () => {
         </div>
       </div>
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov]">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
           Travel Documentation
         </h1>
-        <div className=" md:ml-[50px] md:w-[1074px]">
+        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Clients are responsible for possessing valid passports, visas,
             necessary travel documents, vaccinations, and other medical
@@ -209,10 +209,10 @@ const TermsContent = () => {
         </div>
       </div>
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov]">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
           Health and Conduct
         </h1>
-        <div className=" md:ml-[50px] md:w-[1074px]">
+        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Clients are expected to be fit to complete their chosen tour and
             must disclose pre-existing medical conditions or illnesses. Clients
@@ -222,10 +222,10 @@ const TermsContent = () => {
         </div>
       </div>
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov]">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
           Client Exclusion and Local Law
         </h1>
-        <div className=" md:ml-[50px] md:w-[1074px]">
+        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Clients agree to accept the authority and decisions of Heaven Lanka
             and its suppliers&apos; employees and representatives. Clients may be
@@ -235,10 +235,10 @@ const TermsContent = () => {
         </div>
       </div>
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4 md:mb-[50px]">
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov]">
+        <h1 className="text-xl md:text-3xl lg:text-3xl font-bold font-[volkhov] md:ml-[100px]">
           Client Exclusion and Local Law
         </h1>
-        <div className=" md:ml-[50px] md:w-[1074px]">
+        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Clients must raise any complaints immediately with Heaven Lanka,
             allowing us to rectify the problem. Failure to complain immediately
