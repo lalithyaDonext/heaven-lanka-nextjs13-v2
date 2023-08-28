@@ -270,7 +270,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-gradient-to-t from-transparent to-teal-700 md:bg-[#077B83]">
-      <div className="container mx-auto px-4 md:px-8 py-3">
+      <div className="container mx-auto px-4 md:px-[180px] md:py-8 py-3">
         <div className="flex justify-between items-center">
           <div className="w-28 md:w-36">
             <Image

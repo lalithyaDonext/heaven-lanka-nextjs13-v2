@@ -74,12 +74,12 @@ const TourContent = () => {
     <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-[volkhov]">
       Yes! <span className="text-[#077B83]">Sri Lanka Your Ideal Vacation Destination</span>
     </h1>
-    <p className="w-full  text-base md:text-xl text-center leading-[24px]">
+    <p className="w-full  text-base md:text-xl text-center leading-[24px] md:mx-[180px] md:w-[1200px]">
       Escape to Sri Lanka and unlock a world of wonders. With its pristine beaches, lush landscapes, vibrant culture, and rich heritage, Sri Lanka offers an unparalleled vacation experience. Discover a land where ancient temples stand alongside modern cities, where wildlife roams freely in national parks, and where warm hospitality embraces every visitor. Whether you seek relaxation on golden shores, thrilling adventures in the wilderness, or cultural immersion in historical treasures, Sri Lanka promises an unforgettable vacation that will captivate your heart and leave you yearning for more.
     </p>
   </div>
 
-  <div className="mt-6 md:mt-8 space-y-4 md:ml-4 md:mr-4">
+  <div className="mt-6 md:mt-8 space-y-4 md:mx-[180px]">
     <p className="text-[16px] md:text-lg leading-[24px]">
       <span className="text-[#077B83]">1. Breathtaking Beaches:</span> Sink your toes into soft sands, soak up the sun, and swim in crystal-clear waters along Sri Lanka&apos;s stunning coastline. From lively beach towns to secluded coves, there&apos;s a beach for every mood.
     </p>
@@ -107,7 +107,7 @@ const TourContent = () => {
         <SubscriptionCard />
       </div>
 
-      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-100px]">
+      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-100px] -z-50 relative">
         <div className="container mx-auto px-4 md:px-20 py-8 md:pt-[160px]">
           <FooterView />
         </div>

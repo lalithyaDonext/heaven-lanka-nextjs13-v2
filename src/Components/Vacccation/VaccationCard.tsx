@@ -66,7 +66,7 @@ const VaccationCard = ({ duration,image,name,rate,price,quoted,pathName}:any) =>
 
   return (
     <div
-      className='md:h-[340px] md:w-52 w-full shadow-lg flex flex-col border border-gray-100 rounded-md my-2 cursor-pointer'
+      className='md:h-[340px] md:w-52 w-full shadow-lg flex flex-col border border-gray-100 rounded-md my-2 cursor-pointer hover:md:shadow-2xl  transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 duration-300'
       onClick={() => router.push(pathName)}
     >
       <div className='absolute pt-[10px] pl-[140px] md:pl-[120px]'>

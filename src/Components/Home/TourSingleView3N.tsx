@@ -32,8 +32,8 @@ const TourSingleViewContent3N = () => {
             <div className="w-[200px]  2xl:w-[650px] md:w-[400px] sm:w-[300px] border-b-[2px] border-[black] "></div>
             <button
               type="button"
-              className={`w-[80px]  2xl:w-[286px] 2xl:h-[65px]  2xl:text-[32px] md:w-[180px] md:h-[45px]  md:text-[24px] text-[black] font-[volkhov] font-[400] border-b-[2px] border-[black]  ${
-                activeTab === 1 ? "active   border-[2px] border-[black]  border-b-[0px] border-b-[white] md:rounded-t-[30px] rounded-t-[10px]" : ""
+              className={`w-[80px]  2xl:w-[286px] 2xl:h-[65px]  2xl:text-[32px] md:w-[180px] md:h-[45px]  md:text-[24px] text-[black] font-[volkhov] font-[400] border-b-[2px] border-[black]   ${
+                activeTab === 1 ? "active   border-[2px] border-[black]  border-b-[0px] border-b-[white] md:rounded-t-[30px] rounded-t-[10px] " : ""
               }`}
               id="card-type-tab-item-1"
               data-hs-tab="#card-type-tab-1"
@@ -87,7 +87,7 @@ const TourSingleViewContent3N = () => {
         <SubscriptionCard />
       </div>
 
-      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-100px]">
+      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-100px] -z-50 relative">
         <div className="container mx-auto px-4 md:px-20 py-8 md:pt-[160px]">
           <FooterView />
         </div>

@@ -153,7 +153,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-gradient-to-t from-transparent to-teal-700">
-      <div className="container mx-auto px-4 md:px-8 py-3">
+      <div className="container mx-auto px-4 md:px-[180px] md:py-8 py-3">
         <div className="flex justify-between items-center">
           <div className="w-28 md:w-36">
             <Image
@@ -175,7 +175,7 @@ const Navbar = () => {
             </div>
             <div className="hidden md:flex md:space-x-4">
               <button
-                className={`text-white ${selected === 1 ? "font-bold" : ""}`}
+                className={`text-white  ${selected === 1 ? "font-bold" : ""}`}
                 onClick={() => {
                   handleChange(1);
                   router.push("/");
