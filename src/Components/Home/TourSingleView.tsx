@@ -77,15 +77,15 @@ const TourSingleViewContent = () => {
         </div>
       </div>
 
-      {/* <div className="container mx-auto px-20 mt-[60px] w-[1900px] pt-[20px]  ml-[280px] pb-[280px]">
+      <div className="container mx-auto px-4 md:px-20 mt-8">
         <QuoteForm/>
-      </div> */}
+      </div>
 
 <div className="container mx-auto px-4 md:px-20 mt-8">
         <SubscriptionCard />
       </div>
 
-      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-100px]">
+      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-100px] -z-50 relative">
         <div className="container mx-auto px-4 md:px-20 py-8 md:pt-[160px]">
           <FooterView />
         </div>

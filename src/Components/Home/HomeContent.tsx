@@ -262,11 +262,11 @@ const HomeContent = () => {
         <AdventureList />
       </div>
 
-      <div className="container mx-auto px-4 md:px-20 mt-8  md:mt-28">
+      <div className="container mx-auto px-4 md:px-20 mt-8  md:mt-28 ">
         <SubscriptionCard />
       </div>
 
-      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-120px] mt-[-150px]">
+      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-120px] mt-[-150px]  -z-50 relative">
         <div className="container mx-auto px-4 md:px-20 py-8 md:pt-[180px] pt-[200px]">
           <FooterView />
         </div>
