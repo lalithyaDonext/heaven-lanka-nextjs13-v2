@@ -14,10 +14,10 @@ const AboutUsContent = () => {
       </div>
 
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov]">
+      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov] md:ml-[100px]">
           <span className="text-[#077B83]">Our</span> Story
         </h1>
-        <div className=" md:ml-[50px] md:w-[1074px]">
+        <div className=" flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
           <p className="mt-2 text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             At Heaven Lanka, our story is one of passion, discovery, and a deep
             love for travel. It all began with a group of adventurous souls who
@@ -67,10 +67,10 @@ const AboutUsContent = () => {
       </div>
 
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov]">
+      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov] md:ml-[100px]">
           <span className="text-[#077B83]">Our</span> Vision
         </h1>
-        <div className="md:ml-[50px] md:w-[1074px]">
+        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
           <p className="text-[16px]  md:text-[20px] text-left leading-[32px] text-[#222222]">
             Our vision at Heaven Lanka is to be the gateway to unforgettable
             journeys, where wanderlust meets curated experiences. We envision a
@@ -87,10 +87,10 @@ const AboutUsContent = () => {
       </div>
 
       <div className="container mx-auto px-6 md:pl-[100px] md:pr-[100px] flex flex-col mt-[60px] space-y-4">
-      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov]">
+      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-[volkhov] md:ml-[100px]">
           <span className="text-[#077B83]">Our</span> Mission
         </h1>
-        <div className="md:ml-[50px] md:w-[1074px]">
+        <div className="flex flex-col md:items-start md:ml-[150px] md:mr-[100px]">
           <p className=" text-[16px]  md:text-[20px]  text-left leading-[32px] text-[#222222]">
             At Heaven Lanka, our mission is to curate exceptional travel
             experiences that ignite a sense of wonder, foster cultural
