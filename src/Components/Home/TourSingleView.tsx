@@ -85,7 +85,10 @@ const TourSingleViewContent = () => {
         <SubscriptionCard />
       </div>
 
-      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-100px] -z-50 relative">
+      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-100px] md:h-[100px] -z-50 relative">
+        
+      </div>
+      <div className="bg-[#077B83] bg-opacity-10  ">
         <div className="container mx-auto px-4 md:px-20 py-8 md:pt-[160px]">
           <FooterView />
         </div>

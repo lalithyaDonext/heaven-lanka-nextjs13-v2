@@ -88,6 +88,11 @@ import { useRouter } from 'next/navigation';
 
 const FooterView = () => {
   const router = useRouter();
+
+  const facebookUrl = "https://www.facebook.com/heavenlankatravels?mibextid=LQQJ4d";
+  const instagramUrl = "https://twitter.com/heaven_lanka/status/1627940024737009664?s=46&t=9sWVYPeyua1guC6vynx0fg";
+  const twitterUrl = "https://twitter.com/heaven_lanka/status/1627940024737009664?s=46&t=9sWVYPeyua1guC6vynx0fg";
+
   return (
     <div className="pb-[40px]">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-5">
@@ -99,15 +104,24 @@ const FooterView = () => {
             Book your trip in minute, get full Control for much longer.
           </div>
           <div className="flex justify-center md:justify-start mt-[20px] space-x-5">
-            <div className=" w-[40px] h-[40px] rounded-full bg-[#FFFFFF] flex justify-center cursor-pointer items-center">
-              <FaFacebookF className="text-[#E9B4A5]" />
-            </div>
-            <div className="w-[40px] h-[40px] rounded-full bg-[#FA7436] flex justify-center cursor-pointer items-center">
-              <FaInstagram className="text-[#FFFFFF]" />
-            </div>
-            <div className="w-[40px] h-[40px] rounded-full bg-[#FFFFFF] flex justify-center cursor-pointer items-center">
-              <FaTwitter className="text-[#E9B4A5]" />
-            </div>
+          <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
+          <div className="w-[40px] h-[40px] rounded-full bg-[#FFFFFF] flex justify-center cursor-pointer items-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-100 duration-300">
+            <FaFacebookF className="text-[#E9B4A5]" />
+          </div>
+        </a>
+             {/* Instagram Icon with Link */}
+        <a href={instagramUrl} target="_blank" rel="noopener noreferrer">
+          <div className="w-[40px] h-[40px] rounded-full bg-[#FA7436] flex justify-center cursor-pointer items-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-100 duration-300">
+            <FaInstagram className="text-[#FFFFFF]" />
+          </div>
+        </a>
+
+        {/* Twitter Icon with Link */}
+        <a href={twitterUrl} target="_blank" rel="noopener noreferrer">
+          <div className="w-[40px] h-[40px] rounded-full bg-[#FFFFFF] flex justify-center cursor-pointer items-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-100 duration-300">
+            <FaTwitter className="text-[#E9B4A5]" />
+          </div>
+        </a>
           </div>
         </div>
 
@@ -115,10 +129,10 @@ const FooterView = () => {
           <div className="font-semibold text-[#077B83] mt-[20px] md:mt-[25px] leading-[26px]">
             Company
           </div>
-          <div className="mt-[20px] cursor-pointer">About</div>
-          <div className="mt-[20px]  cursor-pointer">Career</div>
-          <div className="mt-[20px] cursor-pointer">Logistic</div>
-          <div className="mt-[20px] cursor-pointer"
+          <div className="mt-[20px] cursor-pointer hover:opacity-75">About</div>
+          <div className="mt-[20px]  cursor-pointer hover:opacity-75">Career</div>
+          <div className="mt-[20px] cursor-pointer hover:opacity-75">Logistic</div>
+          <div className="mt-[20px] cursor-pointer hover:opacity-75"
           onClick={() => router.push('./privacyPage')}
           >Privacy & Policy</div>
         </div>
@@ -127,18 +141,18 @@ const FooterView = () => {
           <div className="font-semibold text-[#077B83] mt-[20px] md:mt-[25px] leading-[26px]">
             Contact
           </div>
-          <div className="mt-[20px] cursor-pointer">Help/FAQ</div>
-          <div className="mt-[20px] cursor-pointer">Press</div>
-          <div className="mt-[20px] cursor-pointer">Affilates</div>
+          <div className="mt-[20px] cursor-pointer hover:opacity-75">Help/FAQ</div>
+          <div className="mt-[20px] cursor-pointer hover:opacity-75">Press</div>
+          <div className="mt-[20px] cursor-pointer hover:opacity-75">Affilates</div>
         </div>
 
         <div className="col-span-1 md:col-span-1 text-center md:text-left md:text-sm">
           <div className="font-semibold text-[#077B83] mt-[20px] md:mt-[25px] leading-[26px]">
             More
           </div>
-          <div className="mt-[20px] cursor-pointer">Press Centre</div>
-          <div className="mt-[20px] cursor-pointer">Our Blog</div>
-          <div className="mt-[20px] cursor-pointer">Low fare tips</div>
+          <div className="mt-[20px]  cursor-pointer hover:opacity-75">Press Centre</div>
+          <div className="mt-[20px] cursor-pointer hover:opacity-75">Our Blog</div>
+          <div className="mt-[20px] cursor-pointer hover:opacity-75">Low fare tips</div>
         </div>
       </div>
       <div className="mt-[20px] border border-[1px] bg-[#999999] bg-opacity-[56%]">
@@ -148,7 +162,7 @@ const FooterView = () => {
         <div className="font-normal text-[#222222] mt-[20px] md:mt-[25px] leading-[26px] text-[12px] text-center md:text-left">
           Copyright, Heaven Lanka 2023. All rights reserved.
         </div>
-        <div className="font-normal text-[#222222] mt-[20px] md:mt-[25px] leading-[26px] text-[12px] text-center md:text-right cursor-pointer"
+        <div className="font-normal text-[#222222] mt-[20px] md:mt-[25px] leading-[26px] text-[12px] text-center md:text-right cursor-pointer hover:opacity-75"
         onClick={() => router.push('./termsPage')}
         >
           Terms & Conditions

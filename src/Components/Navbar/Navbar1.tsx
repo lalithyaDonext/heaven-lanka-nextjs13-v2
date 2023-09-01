@@ -35,7 +35,7 @@
 //           <div className="flex items-center">
 //             <div className="mr-8">
 //               <button
-//                 className={`px-4 py-2 border-b-2 border-transparent text-white  ${
+//                 className={`px-4 py-2 border-b-[4px] border-transparent text-white  ${
 //                   selected === 1 ? "border-white" : "" 
 //                 } `}
 //                 onClick={() => {
@@ -253,16 +253,24 @@ import { useRouter } from "next/navigation";
 
 import logo from "../../../assets/Logo/logo.png";
 
+let navoption:number;
 const Navbar = () => {
   const router = useRouter();
 
-  const [selected, setSelected] = useState(1);
+  
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const handleChange = ({id}:any) => {
-    setSelected(id);
-  };
 
+  const [selected, setSelected] = useState(navoption ? navoption : 1);
+    console.log('selecte' , selected);
+    
+  console.log("nav" , navoption);
+  
+    const handleChange = (id: number) => {
+      navoption = id;
+      setSelected(id);
+      
+    };
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen); 
     // Toggle the mobile menu logic
@@ -279,6 +287,11 @@ const Navbar = () => {
               layout="responsive"
               width={450}
               height={400}
+              onClick={() => {
+                handleChange(1);
+                router.push("/");
+              }}
+              className="cursor-pointer"
             />
           </div>
           <div className="flex items-center space-x-2 md:space-x-4">
@@ -292,7 +305,7 @@ const Navbar = () => {
             </div>
             <div className="hidden md:flex md:space-x-4">
               <button
-                className={`text-white ${selected === 1 ? "font-bold" : ""}`}
+                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${selected === 1 ? "font-bold border-white" : ""}`}
                 onClick={() => {
                   handleChange(1);
                   router.push("/");
@@ -301,7 +314,7 @@ const Navbar = () => {
                 Home
               </button>
               <button
-                className={`text-white ${selected === 2 ? "font-bold" : ""}`}
+                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${selected === 2 ? "font-bold border-white" : ""}`}
                 onClick={() => {
                   handleChange(2);
                   router.push("/tourPage");
@@ -310,7 +323,7 @@ const Navbar = () => {
                 Tours
               </button>
               <button
-                className={`text-white ${selected === 3 ? "font-bold" : ""}`}
+                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${selected === 3 ? "font-bold border-white" : ""}`}
                 onClick={() => {
                   handleChange(3);
                   router.push("/aboutUspage");
@@ -319,7 +332,7 @@ const Navbar = () => {
                 About
               </button>
               <button
-                className={`text-white ${selected === 4 ? "font-bold" : ""}`}
+                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${selected === 4 ? "font-bold border-white" : ""}`}
                 onClick={() => {
                   handleChange(4);
                   router.push("/comingSoonPage");
@@ -328,7 +341,7 @@ const Navbar = () => {
                 Testimonials
               </button>
               <button
-                className={`text-white ${selected === 5 ? "font-bold" : ""}`}
+                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${selected === 5 ? "font-bold border-white" : ""}`}
                 onClick={() => {
                   handleChange(5);
                   router.push("/comingSoonPage");
@@ -337,7 +350,7 @@ const Navbar = () => {
                 Contact
               </button>
               <button
-                className={`text-white ${selected === 6 ? "font-bold" : ""}`}
+                className={`px-2 py-2 border-b-[4px] border-transparent text-white ${selected === 6 ? "font-bold border-white" : ""}`}
                 onClick={() => {
                   handleChange(6);
                   router.push("/comingSoonPage");
