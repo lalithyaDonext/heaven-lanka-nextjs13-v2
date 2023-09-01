@@ -237,7 +237,7 @@ const HomeContent = () => {
                 Hear What Our Customers Have to Say!
               </p>
             </div>
-            <div className="mt-4 md:mt-0">
+            <div className="mt-4 md:mt-[-60px]">
               <FeedbackMsgList />
             </div>
           </div>
@@ -266,11 +266,14 @@ const HomeContent = () => {
         <SubscriptionCard />
       </div>
 
-      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-120px] mt-[-150px]  -z-50 relative">
-        <div className="container mx-auto px-4 md:px-20 py-8 md:pt-[180px] pt-[200px]">
-          <FooterView />
+      <div className="bg-[#077B83] bg-opacity-10 md:mt-[-100px] md:h-[100px] -z-50 relative">
+        
         </div>
-      </div>
+        <div className="bg-[#077B83] bg-opacity-10  ">
+          <div className="container mx-auto px-4 md:px-20 py-8 md:pt-[160px]">
+            <FooterView />
+          </div>
+        </div>
       <SimpleChatbot />
     </div>
   );

@@ -31,7 +31,7 @@ import Image from 'next/image';
 
 const TreasuresCard = ({ item }: any) => {
   return (
-    <div className='h-16 md:h-52 md:w-52 p-2 md:space-y-2 shadow-lg flex flex-col items-center justify-center border border-gray-100 rounded-md md:my-2'>
+    <div className='h-16 md:h-52 md:w-52 p-2 md:space-y-2 shadow-lg flex flex-col items-center justify-center border border-gray-100 rounded-md md:my-2 cursor-pointer transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-100 duration-300'>
       <div className='h-8  md:h-36 w-8 md:w-36'>
         <Image
           src={item?.image}

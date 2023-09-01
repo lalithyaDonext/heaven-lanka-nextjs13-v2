@@ -114,8 +114,8 @@ const FeedbackMsgList = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row md:gap-[400px] items-center mt-4">
-      <div className="flex gap-4 mt-4">
+    <div className="flex flex-col md:flex-row md:gap-[400px] items-center ">
+      <div className="flex gap-4 ">
         <FiArrowLeftCircle
           className="w-8 h-8 text-[#FFFFFF] fill-[#999999] cursor-pointer"
           onClick={handlePrevious}
@@ -126,7 +126,7 @@ const FeedbackMsgList = () => {
         />
       </div>
 
-      <div className="mt-4">
+      <div className="">
         <FeedbackMsgCard message={feedbackList[currentIndex]} />
       </div>
     </div>
