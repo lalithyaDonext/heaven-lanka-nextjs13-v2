@@ -136,7 +136,7 @@ const FooterView = () => {
           <div className="font-semibold text-[#077B83] mt-[20px] md:mt-[25px] leading-[26px]">
             More
           </div>
-          <div className="mt-[20px] cursor-pointer">Press Centre</div>
+          <div className="mt-[20px]  cursor-pointer">Press Centre</div>
           <div className="mt-[20px] cursor-pointer">Our Blog</div>
           <div className="mt-[20px] cursor-pointer">Low fare tips</div>
         </div>
