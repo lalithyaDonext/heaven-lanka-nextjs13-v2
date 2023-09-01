@@ -1,11 +1,10 @@
 "use client";
-import { useState } from "react";
+import { SetStateAction, useEffect, useState } from "react";
 import Swal from "sweetalert2";
 import dynamic from "next/dynamic";
 import { sendEmail } from "../EmailService/SendEmai";
 import { FaSpinner } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
-
 
 import {
   Formik,
@@ -54,6 +53,15 @@ const validateForm = (values: FormValues): FormikErrors<FormValues> => {
 };
 
 const QuoteForm = ({ setShowPopup }: any) => {
+  const [minDateString, setMinDateString] = useState("");
+  const [selectedArrivalDate, setSelectedArrivalDate] = useState("");
+
+  useEffect(() => {
+    const minDate = new Date();
+    minDate.setDate(minDate.getDate() + 1);
+    setMinDateString(minDate.toISOString().split("T")[0]);
+  }, []);
+
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSub = async (values: FormValues) => {
@@ -88,12 +96,12 @@ const QuoteForm = ({ setShowPopup }: any) => {
 
   const handleClose = () => {
     setShowPopup(false);
-};
+  };
 
   return (
     <div className="fixed inset-0 z-100 grid place-items-center bg-slate-900 bg-opacity-80">
       <div className="py-4 px-4 mx-2 flex flex-col relative bg-white shadow-md rounded-md w-full">
-      <button
+        <button
           className="absolute top-8 right-10 text-gray-500 hover:text-gray-700"
           onClick={handleClose}
         >
@@ -199,10 +207,13 @@ const QuoteForm = ({ setShowPopup }: any) => {
                         type="date"
                         id="fromDate"
                         name="fromDate"
+                        min={new Date().toISOString().split("T")[0]}
+                        value={selectedArrivalDate}
+                        onChange={(e: { target: { value: SetStateAction<string>; }; }) => setSelectedArrivalDate(e.target.value)}
                         style={{
                           height: "64.04px",
                           width: "332.42px",
-                          borderRadius: "5px 0 0 5px",
+                          borderRadius: "5px",
                           padding: "10px",
                         }}
                       />
@@ -217,6 +228,7 @@ const QuoteForm = ({ setShowPopup }: any) => {
                         type="date"
                         id="toDate"
                         name="toDate"
+                        min={selectedArrivalDate}
                         style={{
                           height: "64.04px",
                           width: "332.42px",
