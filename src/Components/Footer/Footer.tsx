@@ -85,6 +85,8 @@ import Image from "next/image";
 import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
 import logo from ".././../../assets/Logo/logo1.png";
 import { useRouter } from 'next/navigation';
+import Payments from '../../../assets/Footer/Group 1000003575.png'
+import xtwitter from '../../../assets/Footer/twitter.png'
 
 const FooterView = () => {
   const router = useRouter();
@@ -100,9 +102,9 @@ const FooterView = () => {
           <div className="w-[150px] h-[72px] mx-auto md:mx-0">
             <Image src={logo} alt="item1" className="object-cover w-full h-full" />
           </div>
-          <div className="text-center md:text-left mt-[20px] md:mt-0 text-sm text-[#666666]">
+          {/* <div className="text-center md:text-left mt-[20px] md:mt-0 text-sm text-[#666666]">
             Book your trip in minute, get full Control for much longer.
-          </div>
+          </div> */}
           <div className="flex justify-center md:justify-start mt-[20px] space-x-5">
           <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
           <div className="w-[40px] h-[40px] rounded-full bg-[#FFFFFF] flex justify-center cursor-pointer items-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-100 duration-300">
@@ -119,10 +121,24 @@ const FooterView = () => {
         {/* Twitter Icon with Link */}
         <a href={twitterUrl} target="_blank" rel="noopener noreferrer">
           <div className="w-[40px] h-[40px] rounded-full bg-[#FFFFFF] flex justify-center cursor-pointer items-center transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-100 duration-300">
-            <FaTwitter className="text-[#E9B4A5]" />
+          <Image src={xtwitter} alt="item1" className="" />
           </div>
         </a>
           </div>
+          <div className="text-center md:text-left mt-[20px] md:mt-4 text-sm text-[#666666] ">
+          <p>Tourist Board License No : SLTDA/SQA/PRO/TA/00720 </p>    <span>       ©2023 Heaven Lanka Travels (Pvt) Ltd Sri Lanka (Reg: PV 00271994)        </span>          
+
+          </div>
+
+          <div className="text-center md:text-left mt-[30px] md:mt-[50px] text-sm text-[#666666]">
+          Acceptable payment methods
+          </div>
+
+          <div className="flex flex-row justify-center">
+
+          <Image src={Payments} alt="item1" className="md:ml-[-190px]" />
+          </div>
+
         </div>
 
         <div className="col-span-1 md:col-span-1 text-center md:text-left md:text-sm">
